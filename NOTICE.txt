@@ -1,0 +1,14 @@
+parakeet-tdt-0.6b-v3-q8pc
+
+Dieses Modell basiert auf NVIDIA Parakeet TDT 0.6B v3 (https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3),
+Copyright NVIDIA Corporation, lizenziert unter Creative Commons Attribution 4.0 International (CC-BY-4.0,
+https://creativecommons.org/licenses/by/4.0/).
+
+Änderungen durch PEGASUS: Export nach ONNX für sherpa-onnx und Quantisierung der Gewichte auf int8 pro Kanal.
+Keine weiteren Änderungen am Modell. NVIDIA unterstützt oder empfiehlt PEGASUS nicht.
+
+Dateien (SHA-256):
+  c5cdff28d4ac8690b3e3f7780ac5089586d87a2800cebf0ed5d5a128e94f2b86  encoder.int8.onnx (881498555 Bytes)
+  167873a811f683e6ce94204887954297e77a2c6604a5121dcc234394a7fbfe3e  decoder.int8.onnx (47235689 Bytes)
+  2de5c9796ae6d01e075161d6d25416fa9b19dcac130715401470545ddc51191b  joiner.int8.onnx (6402684 Bytes)
+  d58544679ea4bc6ac563d1f545eb7d474bd6cfa467f0a6e2c1dc1c7d37e3c35d  tokens.txt (93939 Bytes)
