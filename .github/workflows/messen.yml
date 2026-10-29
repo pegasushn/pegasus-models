@@ -1,0 +1,57 @@
+# Misst die veröffentlichten lokalen Diktiermodelle auf Deutsch (FLEURS de_de, 150 Sätze, CPU, 4 Threads) mit
+# derselben sherpa-onnx-Version wie Pegasus Suite Desktop. Baut nichts neu, ändert keine Releases.
+# Ergebnis in der Zusammenfassung und im Branch laeufe (laeufe/<run>/benchmark.log, benchmark.json).
+name: Modelle messen
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/messen.yml', 'scripts/benchmark_fleurs.py']
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  messen:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install sherpa-onnx==1.13.8 soundfile huggingface_hub numpy
+      - name: Modelle laden
+        run: |
+          for id in parakeet-tdt-0.6b-v3-q8pc nemotron-unified-asr-0.6b-de-q8pc nemotron-unified-asr-0.6b-auto-q8pc; do
+            gh release download "$id" --dir "m/$id" --pattern '*.onnx' --pattern 'tokens.txt'
+          done
+      - name: Messen
+        run: |
+          python scripts/benchmark_fleurs.py \
+            --model parakeet=m/parakeet-tdt-0.6b-v3-q8pc \
+            --model nemotron-de=m/nemotron-unified-asr-0.6b-de-q8pc \
+            --model nemotron-auto=m/nemotron-unified-asr-0.6b-auto-q8pc 2>&1 | tee benchmark.log
+          mv fleurs-*.json benchmark.json
+      - name: Zusammenfassung
+        if: always()
+        run: |
+          { echo '## Messung (FLEURS de_de, CPU, int8)'; echo '```'; grep -E 'WER|Sätze|Kontrolle|Beispiel' benchmark.log || true; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Logs in den Branch laeufe
+        if: always()
+        run: |
+          run="${{ github.run_id }}"
+          mkdir -p /tmp/laeufe/$run
+          cp -f benchmark.log benchmark.json /tmp/laeufe/$run/ 2>/dev/null || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin laeufe && git checkout -f laeufe
+          mkdir -p laeufe && cp -r /tmp/laeufe/$run laeufe/
+          git add laeufe && git commit -qm "Messung $run" && git push -q origin laeufe

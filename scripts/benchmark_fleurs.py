@@ -4,7 +4,7 @@ Pegasus Desktop sie lädt (src/main/dictation/local-stt.ts: nemo_transducer, gre
 Gemessen: Wortfehlerrate (WER, klein geschrieben, ohne Satzzeichen) und Rechenzeit je Sekunde Audio (RTF).
 Gedacht für den Wechsel Parakeet TDT 0.6B v3 → Nemotron-Labs-Unified-ASR 0.6B (export_nemotron_unified.py).
 
-    pip install sherpa-onnx soundfile huggingface_hub numpy
+    pip install sherpa-onnx==1.13.8 soundfile huggingface_hub numpy   (gleiche Version wie die App)
     python benchmark_fleurs.py --model parakeet=<ordner> --model nemotron-de=<ordner> [--model nemotron-auto=<ordner>]
 Jeder Ordner enthält encoder.int8.onnx, decoder.int8.onnx, joiner.int8.onnx, tokens.txt. Die ersten 150
 Sätze (--n) laden einmalig rund 0,5 GB von Hugging Face (google/fleurs). Ergebnis als Tabelle und
@@ -68,6 +68,10 @@ def load_fleurs(n: int) -> list[tuple[str, np.ndarray, str]]:
     return [(name, audio[name], raw) for name, raw in rows if name in audio]
 
 
+# Wie die App (local-stt.ts PAD_SECONDS): Stille am Ende, sonst fehlen letzte Wörter
+PAD = np.zeros(int(0.6 * 16000), dtype=np.float32)
+
+
 def recognizer(folder: Path, threads: int):
     return sherpa_onnx.OfflineRecognizer.from_transducer(
         encoder=str(folder / "encoder.int8.onnx"), decoder=str(folder / "decoder.int8.onnx"),
@@ -83,7 +87,10 @@ def main() -> None:
     args = parser.parse_args()
 
     samples = load_fleurs(args.n)
-    print(f"{len(samples)} Sätze, {sum(len(a) for _, a, _ in samples) / 16000 / 60:.1f} min Audio")
+    print(f"{len(samples)} Sätze, {sum(len(a) for _, a, _ in samples) / 16000 / 60:.1f} min Audio, sherpa-onnx {sherpa_onnx.__version__}")
+    first = samples[0][1]
+    print(f"Kontrolle Audio: dtype {first.dtype}, Form {first.shape}, {len(first) / 16000:.1f} s, "
+          f"Spitze {float(np.abs(first).max()):.3f}, RMS {float(np.sqrt(np.mean(first ** 2))):.4f}")
     report = {"datum": datetime.date.today().isoformat(), "saetze": len(samples), "modelle": {}}
 
     for spec in args.model:
@@ -96,7 +103,7 @@ def main() -> None:
         details = []
         for file_name, data, raw in samples:
             stream = rec.create_stream()
-            stream.accept_waveform(16000, data)
+            stream.accept_waveform(16000, np.ascontiguousarray(np.concatenate([data, PAD]), dtype=np.float32))
             t = time.perf_counter()
             rec.decode_stream(stream)
             decode_s += time.perf_counter() - t
@@ -111,6 +118,7 @@ def main() -> None:
         report["modelle"][name] = {"ordner": folder, "wer": round(wer, 2), "rtf": round(rtf, 4),
                                    "laden_s": round(load_s, 1), "saetze": details}
         print(f"{name:20s} WER {wer:5.2f} %   RTF {rtf:.3f}   Laden {load_s:.1f} s")
+        print(f"  Beispiel: {details[0]['erkannt'][:100]!r}")
 
     out = Path(f"fleurs-{report['datum']}.json")
     out.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")

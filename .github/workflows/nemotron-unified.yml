@@ -15,7 +15,7 @@ on:
   # Startet auch beim Push einer Änderung an Workflow oder Skripten (auf dem Server gibt es kein gh)
   push:
     branches: [main]
-    paths: ['.github/workflows/nemotron-unified.yml', 'scripts/**']
+    paths: ['.github/workflows/nemotron-unified.yml', 'scripts/export_nemotron_unified.py']
 
 permissions:
   contents: write
@@ -50,7 +50,7 @@ jobs:
           pip install --upgrade pip
           pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
           pip install "nemo-toolkit[asr] @ git+https://github.com/NVIDIA-NeMo/Speech.git@main" \
-            onnx onnxruntime sherpa-onnx soundfile huggingface_hub numpy
+            onnx onnxruntime sherpa-onnx==1.13.8 soundfile huggingface_hub numpy
           pip list | grep -i -E "^(torch|nemo|onnx|onnxruntime|sherpa)" || true
 
       - name: Umwandeln
