@@ -1,0 +1,10 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+150 Sätze, 34.4 min Audio, sherpa-onnx 1.13.8
+Kontrolle Audio: dtype float32, Form (413760,), 25.9 s, Spitze 0.121, RMS 0.0124
+parakeet             WER  5.13 %   RTF 0.032   Laden 1.2 s
+  Beispiel: 'Löwenrudel agieren ähnlich wie Wolfs- oder Hunderrudel, Tiere, die den Löwen, aber nicht anderen Gro'
+nemotron-de          WER  5.58 %   RTF 0.030   Laden 2.3 s
+  Beispiel: 'Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen, aber nicht anderen Groß'
+nemotron-auto        WER  5.73 %   RTF 0.031   Laden 1.0 s
+  Beispiel: 'Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen, aber nicht anderen Groß'
+Einzelergebnisse: /home/runner/work/pegasus-models/pegasus-models/fleurs-2026-10-29.json
