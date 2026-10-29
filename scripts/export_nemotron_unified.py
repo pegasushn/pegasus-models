@@ -134,6 +134,7 @@ def main() -> None:
     parser.add_argument("--lang", action="append", help="Sprache des festen Prompts (z. B. de, auto); mehrfach möglich")
     parser.add_argument("--nemo", type=Path, help="lokale .nemo-Datei statt Download")
     parser.add_argument("--wav", type=Path, help="Kontroll-Audio (16 kHz mono)")
+    parser.add_argument("--keep-fp32", action="store_true", help="fp32-Encoder behalten (für quant_variants.py)")
     args = parser.parse_args()
     langs = args.lang or ["de", "auto"]
     work = args.workdir.resolve()
@@ -206,7 +207,8 @@ def main() -> None:
         for name in ("decoder.int8.onnx", "joiner.int8.onnx", "tokens.txt"):
             shutil.copy(fp32 / name, target / name)
 
-        shutil.rmtree(enc_dir, ignore_errors=True)  # fp32-Encoder (2,4 GB) wird nicht mehr gebraucht
+        if not args.keep_fp32:
+            shutil.rmtree(enc_dir, ignore_errors=True)  # fp32-Encoder (2,4 GB) wird nicht mehr gebraucht
         print(f"\n{target.name}")
         for f in write_manifest(target, lang):
             print(f"  {f['name']}  {f['bytes']}  {f['sha256']}")

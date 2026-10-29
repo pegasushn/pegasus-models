@@ -1,0 +1,70 @@
+# Diagnose: Liefern die int8-Modelle auf Prozessoren ohne VNNI Unsinn? Gibt den Prozessor des Rechners aus,
+# verkleinert Parakeet (fp32 von sherpa-onnx) und Nemotron-de (fp32 frisch exportiert) in drei Varianten
+# (scripts/quant_variants.py: s8 wie bisher, s8rr mit reduce_range, u8) und misst alle mit FLEURS de (40 Sätze).
+# Ändert keine Releases. Ergebnis in der Zusammenfassung und im Branch laeufe.
+name: Quantisierung testen (VNNI)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/quant-test.yml', 'scripts/quant_variants.py']
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - name: Prozessor
+        run: |
+          grep -m1 "model name" /proc/cpuinfo | tee cpu.txt
+          echo "Befehlssätze: $(grep -m1 -o -w -E 'avx2|avx512f|avx512_vnni|avx_vnni|avx512bw' /proc/cpuinfo | sort -u | tr '\n' ' ')" | tee -a cpu.txt
+      - name: Platz schaffen
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pakete
+        run: |
+          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install "nemo-toolkit[asr] @ git+https://github.com/NVIDIA-NeMo/Speech.git@main" onnx onnxruntime sherpa-onnx==1.13.8 soundfile huggingface_hub numpy
+      - name: Nemotron-de fp32 exportieren
+        run: |
+          python scripts/export_nemotron_unified.py work --lang de --keep-fp32 2>&1 | grep -v "NeMo [WI]" | tail -20 | tee export.log
+          cp work/fp32/decoder.onnx work/fp32/joiner.onnx work/fp32/tokens.txt work/fp32-encoder-de/
+      - name: Parakeet fp32 laden
+        run: python -c "from huggingface_hub import snapshot_download as s; print(s('csukuangfj/sherpa-onnx-nemo-parakeet-tdt-0.6b-v3', allow_patterns=['*.onnx','*.weights','tokens.txt'], local_dir='parakeet-fp32'))"
+      - name: Varianten
+        run: |
+          python scripts/quant_variants.py work/fp32-encoder-de v/nemotron 2>&1 | grep fertig | tee varianten.log
+          python scripts/quant_variants.py parakeet-fp32 v/parakeet 2>&1 | grep fertig | tee -a varianten.log
+      - name: Messen (40 Sätze)
+        run: |
+          python scripts/benchmark_fleurs.py --n 40 \
+            --model parakeet-s8=v/parakeet/s8 --model parakeet-s8rr=v/parakeet/s8rr --model parakeet-u8=v/parakeet/u8 \
+            --model nemotron-s8=v/nemotron/s8 --model nemotron-s8rr=v/nemotron/s8rr --model nemotron-u8=v/nemotron/u8 \
+            2>&1 | tee benchmark.log
+          mv fleurs-*.json benchmark.json
+      - name: Zusammenfassung
+        if: always()
+        run: |
+          { echo '## Quantisierung ohne/mit VNNI'; echo '```'; cat cpu.txt; grep -E 'WER|Beispiel|Kontrolle' benchmark.log || true; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Logs in den Branch laeufe
+        if: always()
+        run: |
+          run="${{ github.run_id }}"
+          mkdir -p /tmp/laeufe/$run
+          cp -f cpu.txt export.log varianten.log benchmark.log benchmark.json /tmp/laeufe/$run/ 2>/dev/null || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin laeufe && git checkout -f laeufe
+          mkdir -p laeufe && cp -r /tmp/laeufe/$run laeufe/
+          git add laeufe && git commit -qm "Quantisierung $run" && git push -q origin laeufe
