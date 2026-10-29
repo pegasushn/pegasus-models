@@ -1,0 +1,2730 @@
+{
+  "datum": "2026-10-29",
+  "saetze": 150,
+  "modelle": {
+    "parakeet": {
+      "ordner": "/home/runner/work/pegasus-models/pegasus-models/parakeet",
+      "wer": 100.0,
+      "rtf": 0.0779,
+      "laden_s": 1.8,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Asta i to i",
+          "fehler": 26
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "",
+          "fehler": 31
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "I skip to find to omed stuff and get stondist and must stolve them to mm to fiets.",
+          "fehler": 22
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "",
+          "fehler": 35
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "Hot to still have.",
+          "fehler": 23
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "",
+          "fehler": 8
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "Stiefstaffs.",
+          "fehler": 28
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "",
+          "fehler": 18
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "For ista i still i forstå i forsta i still i?",
+          "fehler": 35
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "Still, ist i still ist ista?",
+          "fehler": 29
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "",
+          "fehler": 31
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "",
+          "fehler": 30
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "3310355866545863963.wav",
+          "referenz": "Eine Exkursion virtuell zu teilen ist auch eine tolle Art, um über eine Reise zu reflektieren und Erfahrungen mit zukünftigen Klassen zu teilen.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "1454742602800191156.wav",
+          "referenz": "Mit Kundalini-Yoga wird die Kundalini-Energie (Aufklärungsenergie) durch Yoga-Posen, Atemübungen, Mantras und Visualisierungen erweckt.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "17560320841359480181.wav",
+          "referenz": "Das ist der Ort, den sich die britischen Kolonisten zu eigen gemacht haben. Wenn Sie nach Spuren der kolonialen Vergangenheit des Gebiets suchen, ist dies ein guter Ausgangspunkt.",
+          "erkannt": "I'm afstorm if i still.",
+          "fehler": 28
+        },
+        {
+          "datei": "8217437349829675281.wav",
+          "referenz": "Sie besagt, dass der Kreuzungspunkt der Linien, die ein Bild vertikal und horizontal dritteln, der effektivste Platz für das Hauptmotiv ist (siehe Beispiel).",
+          "erkannt": "Forst i still ice.",
+          "fehler": 23
+        },
+        {
+          "datei": "980502554629108510.wav",
+          "referenz": "Verschandeln Sie die Stätte nicht durch Anbringen oder Einkratzen von Graffiti.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "10376367261184486277.wav",
+          "referenz": "\"Ihr thermisches Verhalten ist nicht so gleichmäßig wie das großer Höhlen auf der Erde, die oft eine ziemlich konstante Temperatur haben, aber es stimmt damit überein, dass es sich um tiefe Löcher im Boden handelt\"\", sagte Glen Cushing vom Astrogeologie-Team des United States Geological Survey (USGS) und der Northern Arizona University in Flagstaff, Arizona.\"",
+          "erkannt": "Histor ista i stosn i to i forsta i forsta i forsta i stimst i forstol i stosita forsta i stoled?",
+          "fehler": 55
+        },
+        {
+          "datei": "9320383698486854080.wav",
+          "referenz": "Mit dem Verlust griechischer Sprachkenntnisse war der Westen von seinen philosophischen und wissenschaftlichen Wurzeln in Griechenland abgeschnitten.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "2871815018664803360.wav",
+          "referenz": "Eine Bombe explodierte vor dem Bürogebäude des Generalgouverneurs.",
+          "erkannt": "",
+          "fehler": 8
+        },
+        {
+          "datei": "28000901092627742.wav",
+          "referenz": "Der Dienst wird häufig von Schiffen genutzt, darunter auch von Vergnügungsschiffen, sowie von Expeditionen, die Daten- und Sprachfernverbindungen benötigen.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "11358709825893278584.wav",
+          "referenz": "Manche Menschen dachten, dass er recht habe, doch viele glaubten das Gegenteil: Dass sich das Sonnensystem einschließlich der Sonne (und sogar der anderen Sterne) um die Erde bewege.",
+          "erkannt": "Most mm stuff i stuff to stomst to a hands to start.",
+          "fehler": 28
+        },
+        {
+          "datei": "4037863062363267429.wav",
+          "referenz": "\"\"\"Er [Wales] hat uns im Grunde von Anfang an belogen. Erstens, indem er so tat, als ob dies aus rechtlichen Gründen geschah. Zweitens, indem er so tat, als würde er uns zuhören, bis hin zu seiner Kunstlöschung.\"\"\"",
+          "erkannt": "",
+          "fehler": 37
+        },
+        {
+          "datei": "12203116308364043833.wav",
+          "referenz": "\"Eine Internetsuche nach \"\"Kurs über feindselige Umgebungen\"\" wird vermutlich die Adresse eine örtlichen Firma anzeigen.\"",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "12798784392566195777.wav",
+          "referenz": "Tatsächlich ist sie ganz und gar nicht einfach zu finden, auch wenn man weiß, dass sie existiert. Sobald man sich in der Höhle befindet, ist man vollkommen isoliert.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "8157813197855128219.wav",
+          "referenz": "Die derzeitige Senatorin und argentinische First Lady Cristina Fernandez de Kirchner gab gestern Abend in La Plata, einer Stadt 50 Kilometer von Buenos Aires entfernt, ihre Präsidentschaftskandidatur bekannt.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "17911185814913155585.wav",
+          "referenz": "Zunächst einmal tragen die meisten Reiter Reitstiefel mit einem Absatz und einer glatten, recht schmalen Sohle.",
+          "erkannt": "I try to start.",
+          "fehler": 16
+        },
+        {
+          "datei": "17517705986264119264.wav",
+          "referenz": "Die 25 Dunlap-Breitseiten, die es noch gibt, sind die ältesten noch existierenden Kopien des Dokuments. Die Originalhandschrift hat die Zeiten nicht überdauert.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "16891670336471039372.wav",
+          "referenz": "Sie haben normalerweise ein besonderes Angebot an Speisen, Getränken und Unterhaltung, um die Gäste bei Laune zu halten und dafür zu sorgen, dass sie bleiben.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "3302798769392930530.wav",
+          "referenz": "Wasserstoffionen sind Protonen, denen ihre Elektronen entzogen wurden (denn Wasserstoffatome bestehen aus einem Proton und einem Elektron).",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "13733246753245083133.wav",
+          "referenz": "Löwen sind die sozialsten Katzen. Sie leben in großen Gruppen, die Rudel genannt werden.",
+          "erkannt": "",
+          "fehler": 14
+        },
+        {
+          "datei": "10618529918679729733.wav",
+          "referenz": "Wegen der Unterwassertopologie konzentriert sich der Rückfluss in wenigen tieferen Bereichen und eine schnelle Strömung bis hin zu tiefem Wasser kann sich dort bilden.",
+          "erkannt": "Stroe bombs to fast after",
+          "fehler": 24
+        },
+        {
+          "datei": "1466939857313988817.wav",
+          "referenz": "Für die besten Aussichten auf Hongkong sollten Sie die Insel verlassen und zum gegenüberliegenden Ufer von Kowloon fahren.",
+          "erkannt": "",
+          "fehler": 18
+        },
+        {
+          "datei": "3975961929423531534.wav",
+          "referenz": "Die Strategie erwies sich als effektiv, da sie das Land von lebenswichtigen militärischen und zivilen Lieferungen abschnitt, obwohl diese Blockade gegen das allgemein anerkannte Völkerrecht verstieß, das durch mehrere internationale Abkommen der letzten zwei Jahrhunderte kodifiziert worden war.",
+          "erkannt": "",
+          "fehler": 38
+        },
+        {
+          "datei": "15175045596108872942.wav",
+          "referenz": "Legierungen sind im Grunde eine Mischung aus zwei oder mehr Metallen. Vergessen Sie nicht, dass es viele Elemente im Periodensystem gibt.",
+          "erkannt": "I'm just afraid of them.",
+          "fehler": 21
+        },
+        {
+          "datei": "10271188615398617841.wav",
+          "referenz": "In seinem Artikel Die Rede des Präsidenten zeigte Oliver Sacks auf, wie Leute, die wegen eines Hirnschadens keine Sprache mehr verstehen können, trotzdem die Ehrlichkeit von Menschen richtig einschätzen können.",
+          "erkannt": "",
+          "fehler": 30
+        },
+        {
+          "datei": "2479748272693363305.wav",
+          "referenz": "Seit der Gründung von Asunción 1537 ist es Paraguay gelungen, viel von seinem indigenen Charakter und seiner Identität zu bewahren.",
+          "erkannt": "Stat to com's data omstie and fast",
+          "fehler": 20
+        },
+        {
+          "datei": "11842575003338313546.wav",
+          "referenz": "Weitere Themen auf der Tagesordnung in Bali sind die Rettung der noch verbliebenen Wälder der Welt und die gemeinsame Nutzung von Technologien, die den Entwicklungsländern helfen sollen, auf weniger umweltschädliche Weise zu wachsen.",
+          "erkannt": "",
+          "fehler": 33
+        },
+        {
+          "datei": "15660385534242761942.wav",
+          "referenz": "MS ist eine Krankheit, die das zentrale Nervensystem beeinträchtigt, das sich aus dem Gehirn, dem Rückenmark und dem Sehnerv zusammensetzt.",
+          "erkannt": "I'm stomach to.",
+          "fehler": 20
+        },
+        {
+          "datei": "14242568589524674411.wav",
+          "referenz": "Die Fotografen nahmen den Platz einer älteren Dame ein, als sie zur Toilette musste. Mendoza wurde erschossen.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "5588377578874001231.wav",
+          "referenz": "Forscher der Princeton University in den Vereinigten Staaten und der Uppsala University in Schweden berichteten, die neue Art habe sich innerhalb von nur zwei Generationen entwickelt, obwohl man zuvor angenommen hatte, dass dieser Vorgang aufgrund der Paarung zwischen einem einheimischen Darwinfink, Geospiza fortes, und dem eingewanderten Kaktusfink, Geospiza conirostris, viel länger dauerte.",
+          "erkannt": "For instance, for ista for still?",
+          "fehler": 52
+        },
+        {
+          "datei": "3857129364489692667.wav",
+          "referenz": "Die meisten der kleineren Inseln sind unabhängige Nationen oder zu Frankreich gehörig und als luxuriöse Seebäder bekannt.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "16308051008387469731.wav",
+          "referenz": "Bis 1976 wurden dreißig Prozent von Machu Picchu restauriert, und die Restaurierungsarbeiten dauern bis heute an.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "9934294391860911787.wav",
+          "referenz": "Der kalifornische Gouverneur Arnold Schwarzenegger unterzeichnete einen Gesetzentwurf, der den Verkauf oder Verleih von Videospielen, die Gewalt beinhalten, an Minderjährige verbietet.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "14375554165720834922.wav",
+          "referenz": "Bald nach dem Ausbruch von Kampfhandlungen initiierte Großbritannien eine Seeblockade gegen Deutschland.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "15040514611974983460.wav",
+          "referenz": "Virtuelle Teams werden nach den gleichen Exzellenzstandards geführt wie konventionelle Teams, aber es gibt subtile Unterschiede.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "11438904996847579220.wav",
+          "referenz": "\"Perry erklärte, er werde „nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt\"\", aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.\"",
+          "erkannt": "Hills for ista for ista i still i stolst i forst i still",
+          "fehler": 49
+        },
+        {
+          "datei": "2734197967797707964.wav",
+          "referenz": "Es hat uns die Eisenbahn, das Auto und viele andere Transportmittel gebracht.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "8541622485160879804.wav",
+          "referenz": "Apia ist die auf der Insel Upolu liegende Hauptstadt von Samoa und weist eine Einwohnerzahl von knapp unter 40.000 auf.",
+          "erkannt": "To start omstanden, i'm not still to.",
+          "fehler": 21
+        },
+        {
+          "datei": "13269734152533630938.wav",
+          "referenz": "Wir wissen es nicht sicher, aber er könnte eine gegabelte Zunge gehabt haben. Er ernährte sich von Schildkröten, großen Fischen, anderen Mosasauriern und war vielleicht sogar ein Kannibale.",
+          "erkannt": "St'a afstrofond i stroft from to?",
+          "fehler": 28
+        },
+        {
+          "datei": "11958203825106619638.wav",
+          "referenz": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwens, sondern eher wie ein Satz aus knurrigen gebrüllten Worten.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "12628233572987997427.wav",
+          "referenz": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+          "erkannt": "",
+          "fehler": 10
+        },
+        {
+          "datei": "4515480142585050048.wav",
+          "referenz": "Der Absturz ereignete sich hoch oben in bergigem Gelände, und es wird vermutet, dass er das Ergebnis von feindlichem Beschuss war.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "10095057775426831514.wav",
+          "referenz": "Blogs können auch dazu beitragen, die Schreibfertigkeiten von Schülern zu verbessern. Zwar haben Schüler am Anfang ihrer Blogerfahrung oft eine schlampige Grammatik und Rechtschreibung, aber das ändert sich normalerweise, wenn es ein Publikum gibt.",
+          "erkannt": "Afstahs, comes.",
+          "fehler": 34
+        },
+        {
+          "datei": "11955192556101782814.wav",
+          "referenz": "In ihren frühen Tagen wurde die Show nur auf der altgedienten Internetradioseite TogiNet Radio gezeigt, eine Site, die den Schwerpunkt auf Talkradio legt.",
+          "erkannt": "Stolensta.",
+          "fehler": 23
+        },
+        {
+          "datei": "12058857074198713343.wav",
+          "referenz": "Im warmen Klima des Mittleren Ostens kamen Häusern keine so große bedeutung zu.",
+          "erkannt": "",
+          "fehler": 13
+        },
+        {
+          "datei": "14050580181786701671.wav",
+          "referenz": "Schlafunterbrechnung ist der Prozess des zielgerichteten Aufwachens während der normalen Schlafperioden und des Einschlafens kurze Zeit (10-60 Minuten) später.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "12158105387710574116.wav",
+          "referenz": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas.",
+          "erkannt": "Sta afstands.",
+          "fehler": 20
+        },
+        {
+          "datei": "6774134272436393651.wav",
+          "referenz": "Man darf gespannt sein, was aus der Tastatur werden wird, wenn etwas Neueres daherkommt.",
+          "erkannt": "",
+          "fehler": 14
+        },
+        {
+          "datei": "15546224334452981832.wav",
+          "referenz": "Die Stadt ist auch der Ausgangspunkt für die Besteigung des Vulkans Nyiragongo sowie für einige der billigsten Berggorilla-Trackingtouren in Afrika.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "18252576043058323640.wav",
+          "referenz": "Zwischen den einzelnen Dynastien herrschten auch unbeständige Zeiten geteilter Provinzen. Die bekannteste dieser Perioden war die Epoche der Drei Königreiche, die 60 Jahre lang zwischen der Han- und der Jin-Dynastie stattfand.",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "15610717007160579426.wav",
+          "referenz": "Wenn Sie es nicht gewohnt sind, auf Landstraßen zu fahren, bleiben Sie achtsam: steiles Gefälle, enge Fahrbahnen und scharfe Kurven überwiegen hier.",
+          "erkannt": "G for hands for stalls i still have to.",
+          "fehler": 22
+        },
+        {
+          "datei": "18147896924797983877.wav",
+          "referenz": "Die Höhle befindet sich auf der Spitze eines der Berge nördlich von Mekka und ist vom Rest der Welt völlig isoliert.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "112002364196740352.wav",
+          "referenz": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen sowie bis zu dreißig Weibchen und Jungen.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "18133188646735729539.wav",
+          "referenz": "Die Kritik der Liberalen am Wiederaufbauprozess hat sich darauf konzentriert, dass Aufträge für den Wiederaufbau an vermeintliche Insider in Washingtoner vergeben wurden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "13422973846971337023.wav",
+          "referenz": "Die Korrelation zwischen Gehirnpathologie und Verhalten stützt Wissenschaftler in ihrer Forschung.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "9742417165684113780.wav",
+          "referenz": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "3702978878419561855.wav",
+          "referenz": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+          "erkannt": "",
+          "fehler": 18
+        },
+        {
+          "datei": "6482660284125644969.wav",
+          "referenz": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat, es ist allerdings bekannt, dass das große Pergamentdokument (welches 29¾ Zoll x 24½ Zoll misst) zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "18196254767307361725.wav",
+          "referenz": "Exkursionen sind ein wichtiger Bestandteil für jede Schulklasse. Nicht selten würde eine Lehrerin ihre Schülerinnen und Schüler gerne an Orte bringen, zu denen eine Busfahrt nicht in Frage kommt.",
+          "erkannt": "Homst iFst i?",
+          "fehler": 29
+        },
+        {
+          "datei": "11346066260334094005.wav",
+          "referenz": "Feuchte Kleidung zu bügeln kann beim Trocknen helfen. Viele Hotels verleihen Bügeleisen und Bügelbrett, auch wenn man man nicht im Zimmer anwesend ist.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "8385828782945353218.wav",
+          "referenz": "Casablanca ist einer der uninteressantesten Orte zum Shoppen in ganz Marokko.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "16846909353761153442.wav",
+          "referenz": "Dem Leak zufolge bezieht sich das Dokument auf den Grenzstreit, in dem die Palästinenser ein Zurücksetzen der Grenzen in den Zustand vor dem Sechstagekrieg von 1967 fordern.",
+          "erkannt": "",
+          "fehler": 27
+        },
+        {
+          "datei": "15145909350398789793.wav",
+          "referenz": "Der US-amerikanische Ingenieurskorps schätzte , dass 6 Zoll Regen die schon zuvor beschädigten Dämme brechen lassen könnten.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "2835934118517986318.wav",
+          "referenz": "Beispielsweise entwerfen Studenten der Bennet School in North Carolina jedes Jahr eine Webseite über ihre Reise in die Hauptstadt des Bundesstaates. Die Webseite wird jedes Jahr umgebaut, aber die Vorgängerversionen bleiben jedoch online  und dienen als Sammelalbum.",
+          "erkannt": "",
+          "fehler": 37
+        },
+        {
+          "datei": "11023957874481563686.wav",
+          "referenz": "Wenn Sie im Winter die nördliche Ostsee überqueren, überprüfen Sie die Lage der Kabine, da das Durchbrechen von Eis für die am stärksten Betroffenen ziemlich schrecklichen Lärm verursacht.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "4099911901963505193.wav",
+          "referenz": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "16587003122171728105.wav",
+          "referenz": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 km vom bangladeschischen und indischen Hinterland bis an die Küste.",
+          "erkannt": "Stomsta i streft i stuff i.",
+          "fehler": 23
+        },
+        {
+          "datei": "11770437002202590425.wav",
+          "referenz": "Danielle Lantagne, ein UN-Experte für die Krankheit, stellte fest, dass der Ausbruch vermutlich von den Blauhelmen verursacht wurde.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "3215934834432526420.wav",
+          "referenz": "Die Hauptstadt von Moldawien ist Kischinau. Die einheimische Sprache ist Rumänisch, aber viele Menschen sprechen auch Russisch.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "4368862231706717109.wav",
+          "referenz": "Die Sundarbans sind seit 1966 ein Naturschutzgebiet, und Schätzungen zufolge halten sich dort mittlerweile 400 bengalische Königstiger und etwa 30.000 gefleckte Hirsche auf.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "8941962506399972073.wav",
+          "referenz": "In vielen anderen Städten in Italien und dem Rest der Welt, besonders in Polen, wurden ähnliche Einrichtungen installiert, die von zahlreichen Menschen gesehen wurden.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "14581722995429385558.wav",
+          "referenz": "Im Ergebnis kann die gemeinschaftliche Arbeit einer Organisation an der Überwindung eines Hindernisses zu einem neuen innovativen Verfahren führen, auf das Kundenbedürfnis einzugehen.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "12233087638570381988.wav",
+          "referenz": "Die Schlagmänner der mittleren Reihe, Sachin Tendulkar und Rahul Dravid, zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+          "erkannt": "Still to i've to?",
+          "fehler": 20
+        },
+        {
+          "datei": "6224763261339938512.wav",
+          "referenz": "Er wurde zunächst in das James Paget Krankenhaus in Great Yarmouth eingeliefert.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "5260016815738444266.wav",
+          "referenz": "Die heiße Schokolade entspricht belgischen Standards. Fruchtsäfte sind zwar teuer, aber hervorragend.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "6420181749332444605.wav",
+          "referenz": "Vor der Ankunft der Truppen waren in Haiti seit den 1800er Jahren keine Probleme im Zusammenhang mit der Krankheit aufgetreten.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "5415840460724948579.wav",
+          "referenz": "Busse fahren den ganzen Tag über vom distriktübergreifenden Busbahnhof (auf der anderen Seite des Flusses) ab, wobei die meisten Busse, vor allem die in Richtung Osten und Jakar/Bumthang, zwischen 06:30 und 07:30 Uhr abfahren.",
+          "erkannt": "",
+          "fehler": 37
+        },
+        {
+          "datei": "4932595101551775223.wav",
+          "referenz": "Das Seitenverhältnis dieses Formats (geteilt durch zwölf, um das einfachste ganzzahlige Verhältnis zu erhalten) wird daher als 3:2 bezeichnet.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "4103906298154500378.wav",
+          "referenz": "Der verbreitete Automobilbesitz führt auch zu einer höheren Anzahl von Unfällen auf den Straßen, was wiederum zur Erfindung von neuen Techniken im Gesundheitswesen zur Reparatur beschädigter Körper führt.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "5634170789615420358.wav",
+          "referenz": "Wie alle südafrikanischen Nationalparks erhebt der Park tägliche Schutz- und Eintrittsgebühren.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "12661293915709573159.wav",
+          "referenz": "Reisende, deren Zielland eine hohe Besteuerung aufweist, können manchmal eine beträchtliche Menge an Geld sparen, insbesondere bei Produkten wie alkoholischen Getränken und Tabak.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "16286901038396978467.wav",
+          "referenz": "Die Brücke soll im September 2017 vollständig den Betrieb aufnehmen. Es wird erwartet, dass die brasilianischen Zollkontrollpunkte dann fertig gestellt sein werden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "4138553571604325890.wav",
+          "referenz": "Finnland ist ein großartiges Reiseziel für Bootstouren. Das „Land der tausend Seen“ hat auch Tausende von Inseln – in den Seen und in den Küstenarchipelen.",
+          "erkannt": "Findst hem, a to strollst van i st.",
+          "fehler": 24
+        },
+        {
+          "datei": "1238534740793676350.wav",
+          "referenz": "Angel (2006) erläutert das Kontinuum-Konzept als eine Methode, um Organisationen zu helfen, leistungsfähiger zu werden.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "3665385397206262993.wav",
+          "referenz": "Die Aufgabe der Marine war traditionell sicherzustellen, dass ein Land in der Lage bleibt, Menschen und Güter zu befördern, und gleichzeitig die Fähigkeit des Feindes zur Beförderung von Menschen und Gütern zu behindern.",
+          "erkannt": "",
+          "fehler": 33
+        },
+        {
+          "datei": "3829034906131924055.wav",
+          "referenz": "Die Krankheit wird von Schweinen übertragen und wandert dann durch Mücken zum Menschen.",
+          "erkannt": "",
+          "fehler": 13
+        },
+        {
+          "datei": "230273595301736083.wav",
+          "referenz": "„Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.“",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3958673872731882523.wav",
+          "referenz": "Der Kohlsaft ändert seine Farbe, je nachdem wie sauer oder basisch (alkalisch) die Chemikalie ist.",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "8587622497637816205.wav",
+          "referenz": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdrucks richtig deutet.x",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "13449881168142521253.wav",
+          "referenz": "Als vielseitiger Athlet kann der Tiger klettern (wenn auch nicht besonders gut), schwimmen, große Strecken springen und mit der fünffachen Kraft eines starken Menschen ziehen.",
+          "erkannt": "Homst?",
+          "fehler": 25
+        },
+        {
+          "datei": "14866455417746131187.wav",
+          "referenz": "Im Zentrum der tibetischen Meditation steht das Götter-Yoga. Durch die Visualisierung verschiedener Gottheiten werden die Energiekanäle gereinigt, die Chakren geöffnet und das erleuchtete Bewusstsein entsteht.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "17047810064400454397.wav",
+          "referenz": "Wenn man eine romanische Sprache spricht, ist es  natürlich leichter, Portugiesisch zu erlernen.",
+          "erkannt": "",
+          "fehler": 13
+        },
+        {
+          "datei": "14959894582751932231.wav",
+          "referenz": "Diese Theorien befassen sich damit, was bestimmte Menschen dazu veranlasst, genau die Dinge zu wollen, die sie tun, und welche Einflüsse in ihrer Umgebung sie dazu bringen, bestimmte Dinge zu tun oder nicht zu tun.",
+          "erkannt": "",
+          "fehler": 35
+        },
+        {
+          "datei": "5004631519743481392.wav",
+          "referenz": "KI wird zwar stark mit Science Fiction assoziiert, ist jedoch ein wichtiger Zweig der Computerwissenschaften, der sich mit Verhalten, Lernen und intelligenter Anpassung von Maschinen beschäftigt.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "12672564667160952922.wav",
+          "referenz": "Regionale und jahreszeitliche Unwettererscheinungen sind u. a. Blizzards, Schneestürme, Eisstürme und Staubstürme.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "177350811651237373.wav",
+          "referenz": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+          "erkannt": "",
+          "fehler": 30
+        },
+        {
+          "datei": "6753945967797226570.wav",
+          "referenz": "Die Epoche, in der die Ereignisse stattfanden, wird gemeinhin als Hochmittelalter bezeichnet, ein Zeitalter in der europäischen Geschichte, das sich über das 11., 12. und 13 Jahrhundert erstreckt (1000–1300 n. Chr.).",
+          "erkannt": "I'm still istrahs i still",
+          "fehler": 32
+        },
+        {
+          "datei": "3166760679296371275.wav",
+          "referenz": "Analog dazu müssen Männer Hosen tragen, die über die Knie reichen.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "2745275940392191404.wav",
+          "referenz": "Man erwartet vielleicht nicht, dass auch zurückkehrenden Reisenden gegenüber Geduld und Verständnis erforderlich sind.",
+          "erkannt": "",
+          "fehler": 14
+        },
+        {
+          "datei": "10308608197319017935.wav",
+          "referenz": "Diese Paare können sich für einen Adoptionsplan für ihr Baby entscheiden.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "6819214157962336157.wav",
+          "referenz": "Ein einfaches beliebtes Abendessen, besonders im Sommer, ist das Pa amb Oli: Brot mit Olivenöl, Tomaten und jeglicher gerade verfügbarer Zutat wie Käse, Thunfisch usw.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "16494061853339361777.wav",
+          "referenz": "Professorin Pamela Ferguson von der University of Dundee merkt an: „Journalisten scheinen eine gefährliche Grenze zu überschreiten, wenn Sie Fotos usw. von Verdächtigen veröffentlichen.“",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "17405690478792925480.wav",
+          "referenz": "Das erscheint vernünftig, da es einem nicht so vorkommt, als ob sich die Erde bewegt, oder?",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "11290601054905065123.wav",
+          "referenz": "USA Gymnastics und das USOC haben das gleiche Ziel - den Turnsport und andere Sportarten für die Athleten so sicher wie möglich zu machen, damit sie ihren Träumen in einer sicheren, positiven und selbstbestimmten Umgebung folgen können.",
+          "erkannt": "",
+          "fehler": 36
+        },
+        {
+          "datei": "7739349083395946674.wav",
+          "referenz": "Eine Autobombe detonierte am Morgen des gestrigen Tages im Polizeipräsidium des türkischen Gaziantep, tötete zwei Polizisten und verwundete über zwanzig weitere Menschen.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "17473015524442462177.wav",
+          "referenz": "Der Einsatz von Schiffen für den Gütertransport ist die bei weitem effizienteste Methode zum Transport großer Menschen- und Gütermengen über die Ozeane.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "7129312313642011230.wav",
+          "referenz": "Layton hatte während des Treffens mit dem Premierminister Änderungen am Umweltgesetz der Konservativen gefordert und dabei eine „gründliche und vollständige Neufassung“ des Umweltgesetzes der Konservativen Partei verlangt.",
+          "erkannt": "Straft from ista i stomst om i forsta i stomst for stomst i nostom i stomst.",
+          "fehler": 27
+        },
+        {
+          "datei": "6754907113927429020.wav",
+          "referenz": "Die Polizeipräsidentin Chandra Shekhar Solanki gab an, die Angeklagten seien mit bedeckten Gesichtern vor Gericht erschienen.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "13556643934894880169.wav",
+          "referenz": "Das Krankenhaus befolgte Protokolle zum Infektionsschutz, einschließlich der Trennung des Patienten von anderen, um die Infektion Dritter zu vermeiden.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "14628762662867216090.wav",
+          "referenz": "Am späten Sonntag kündigte der Präsident der Vereinigten Staaten, Donald Trump, in einer durch den Pressesekretär verlesenen Erklärung an, dass die US-Truppen Syrien verlassen würden.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "781298712249931542.wav",
+          "referenz": "Für die Springboks endete eine fünf Spiele lange Verlustserie.",
+          "erkannt": "",
+          "fehler": 9
+        }
+      ]
+    },
+    "nemotron-de": {
+      "ordner": "/home/runner/work/pegasus-models/pegasus-models/work/nemotron-unified-asr-0.6b-de-q8pc",
+      "wer": 98.47,
+      "rtf": 0.0701,
+      "laden_s": 2.7,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider um farst.",
+          "fehler": 15
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "De non?",
+          "fehler": 19
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "",
+          "fehler": 31
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "Als kruden, grunden",
+          "fehler": 34
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "Erfut den sud, dass sie doch nicht",
+          "fehler": 20
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "Das sind die grossen.",
+          "fehler": 30
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "",
+          "fehler": 8
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "Sie haben",
+          "fehler": 16
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "Die hän den Osie komen.",
+          "fehler": 17
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "Das umschläge um das keine umschläge eingebochen werden und",
+          "fehler": 30
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "Hold so",
+          "fehler": 16
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "Skaffol,",
+          "fehler": 28
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "",
+          "fehler": 29
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "",
+          "fehler": 31
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "Die Kreutstrats frat",
+          "fehler": 21
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "",
+          "fehler": 30
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "Wenn sie na hin und am dann muss.",
+          "fehler": 19
+        },
+        {
+          "datei": "3310355866545863963.wav",
+          "referenz": "Eine Exkursion virtuell zu teilen ist auch eine tolle Art, um über eine Reise zu reflektieren und Erfahrungen mit zukünftigen Klassen zu teilen.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "1454742602800191156.wav",
+          "referenz": "Mit Kundalini-Yoga wird die Kundalini-Energie (Aufklärungsenergie) durch Yoga-Posen, Atemübungen, Mantras und Visualisierungen erweckt.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "17560320841359480181.wav",
+          "referenz": "Das ist der Ort, den sich die britischen Kolonisten zu eigen gemacht haben. Wenn Sie nach Spuren der kolonialen Vergangenheit des Gebiets suchen, ist dies ein guter Ausgangspunkt.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "8217437349829675281.wav",
+          "referenz": "Sie besagt, dass der Kreuzungspunkt der Linien, die ein Bild vertikal und horizontal dritteln, der effektivste Platz für das Hauptmotiv ist (siehe Beispiel).",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "980502554629108510.wav",
+          "referenz": "Verschandeln Sie die Stätte nicht durch Anbringen oder Einkratzen von Graffiti.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "10376367261184486277.wav",
+          "referenz": "\"Ihr thermisches Verhalten ist nicht so gleichmäßig wie das großer Höhlen auf der Erde, die oft eine ziemlich konstante Temperatur haben, aber es stimmt damit überein, dass es sich um tiefe Löcher im Boden handelt\"\", sagte Glen Cushing vom Astrogeologie-Team des United States Geological Survey (USGS) und der Northern Arizona University in Flagstaff, Arizona.\"",
+          "erkannt": "",
+          "fehler": 55
+        },
+        {
+          "datei": "9320383698486854080.wav",
+          "referenz": "Mit dem Verlust griechischer Sprachkenntnisse war der Westen von seinen philosophischen und wissenschaftlichen Wurzeln in Griechenland abgeschnitten.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "2871815018664803360.wav",
+          "referenz": "Eine Bombe explodierte vor dem Bürogebäude des Generalgouverneurs.",
+          "erkannt": "Nein, ne?",
+          "fehler": 8
+        },
+        {
+          "datei": "28000901092627742.wav",
+          "referenz": "Der Dienst wird häufig von Schiffen genutzt, darunter auch von Vergnügungsschiffen, sowie von Expeditionen, die Daten- und Sprachfernverbindungen benötigen.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "11358709825893278584.wav",
+          "referenz": "Manche Menschen dachten, dass er recht habe, doch viele glaubten das Gegenteil: Dass sich das Sonnensystem einschließlich der Sonne (und sogar der anderen Sterne) um die Erde bewege.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "4037863062363267429.wav",
+          "referenz": "\"\"\"Er [Wales] hat uns im Grunde von Anfang an belogen. Erstens, indem er so tat, als ob dies aus rechtlichen Gründen geschah. Zweitens, indem er so tat, als würde er uns zuhören, bis hin zu seiner Kunstlöschung.\"\"\"",
+          "erkannt": "Eh, nun,",
+          "fehler": 37
+        },
+        {
+          "datei": "12203116308364043833.wav",
+          "referenz": "\"Eine Internetsuche nach \"\"Kurs über feindselige Umgebungen\"\" wird vermutlich die Adresse eine örtlichen Firma anzeigen.\"",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "12798784392566195777.wav",
+          "referenz": "Tatsächlich ist sie ganz und gar nicht einfach zu finden, auch wenn man weiß, dass sie existiert. Sobald man sich in der Höhle befindet, ist man vollkommen isoliert.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "8157813197855128219.wav",
+          "referenz": "Die derzeitige Senatorin und argentinische First Lady Cristina Fernandez de Kirchner gab gestern Abend in La Plata, einer Stadt 50 Kilometer von Buenos Aires entfernt, ihre Präsidentschaftskandidatur bekannt.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "17911185814913155585.wav",
+          "referenz": "Zunächst einmal tragen die meisten Reiter Reitstiefel mit einem Absatz und einer glatten, recht schmalen Sohle.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "17517705986264119264.wav",
+          "referenz": "Die 25 Dunlap-Breitseiten, die es noch gibt, sind die ältesten noch existierenden Kopien des Dokuments. Die Originalhandschrift hat die Zeiten nicht überdauert.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "16891670336471039372.wav",
+          "referenz": "Sie haben normalerweise ein besonderes Angebot an Speisen, Getränken und Unterhaltung, um die Gäste bei Laune zu halten und dafür zu sorgen, dass sie bleiben.",
+          "erkannt": "Sie haben uns um die",
+          "fehler": 21
+        },
+        {
+          "datei": "3302798769392930530.wav",
+          "referenz": "Wasserstoffionen sind Protonen, denen ihre Elektronen entzogen wurden (denn Wasserstoffatome bestehen aus einem Proton und einem Elektron).",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "13733246753245083133.wav",
+          "referenz": "Löwen sind die sozialsten Katzen. Sie leben in großen Gruppen, die Rudel genannt werden.",
+          "erkannt": "Sie leben grossen, rutten, ros",
+          "fehler": 12
+        },
+        {
+          "datei": "10618529918679729733.wav",
+          "referenz": "Wegen der Unterwassertopologie konzentriert sich der Rückfluss in wenigen tieferen Bereichen und eine schnelle Strömung bis hin zu tiefem Wasser kann sich dort bilden.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "1466939857313988817.wav",
+          "referenz": "Für die besten Aussichten auf Hongkong sollten Sie die Insel verlassen und zum gegenüberliegenden Ufer von Kowloon fahren.",
+          "erkannt": "",
+          "fehler": 18
+        },
+        {
+          "datei": "3975961929423531534.wav",
+          "referenz": "Die Strategie erwies sich als effektiv, da sie das Land von lebenswichtigen militärischen und zivilen Lieferungen abschnitt, obwohl diese Blockade gegen das allgemein anerkannte Völkerrecht verstieß, das durch mehrere internationale Abkommen der letzten zwei Jahrhunderte kodifiziert worden war.",
+          "erkannt": "",
+          "fehler": 38
+        },
+        {
+          "datei": "15175045596108872942.wav",
+          "referenz": "Legierungen sind im Grunde eine Mischung aus zwei oder mehr Metallen. Vergessen Sie nicht, dass es viele Elemente im Periodensystem gibt.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "10271188615398617841.wav",
+          "referenz": "In seinem Artikel Die Rede des Präsidenten zeigte Oliver Sacks auf, wie Leute, die wegen eines Hirnschadens keine Sprache mehr verstehen können, trotzdem die Ehrlichkeit von Menschen richtig einschätzen können.",
+          "erkannt": "Die rise, die sprach und verstehen.",
+          "fehler": 27
+        },
+        {
+          "datei": "2479748272693363305.wav",
+          "referenz": "Seit der Gründung von Asunción 1537 ist es Paraguay gelungen, viel von seinem indigenen Charakter und seiner Identität zu bewahren.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "11842575003338313546.wav",
+          "referenz": "Weitere Themen auf der Tagesordnung in Bali sind die Rettung der noch verbliebenen Wälder der Welt und die gemeinsame Nutzung von Technologien, die den Entwicklungsländern helfen sollen, auf weniger umweltschädliche Weise zu wachsen.",
+          "erkannt": "Ne, trenut,",
+          "fehler": 33
+        },
+        {
+          "datei": "15660385534242761942.wav",
+          "referenz": "MS ist eine Krankheit, die das zentrale Nervensystem beeinträchtigt, das sich aus dem Gehirn, dem Rückenmark und dem Sehnerv zusammensetzt.",
+          "erkannt": "Das rücken zusammen.",
+          "fehler": 19
+        },
+        {
+          "datei": "14242568589524674411.wav",
+          "referenz": "Die Fotografen nahmen den Platz einer älteren Dame ein, als sie zur Toilette musste. Mendoza wurde erschossen.",
+          "erkannt": "Die fotrasen.",
+          "fehler": 16
+        },
+        {
+          "datei": "5588377578874001231.wav",
+          "referenz": "Forscher der Princeton University in den Vereinigten Staaten und der Uppsala University in Schweden berichteten, die neue Art habe sich innerhalb von nur zwei Generationen entwickelt, obwohl man zuvor angenommen hatte, dass dieser Vorgang aufgrund der Paarung zwischen einem einheimischen Darwinfink, Geospiza fortes, und dem eingewanderten Kaktusfink, Geospiza conirostris, viel länger dauerte.",
+          "erkannt": "",
+          "fehler": 52
+        },
+        {
+          "datei": "3857129364489692667.wav",
+          "referenz": "Die meisten der kleineren Inseln sind unabhängige Nationen oder zu Frankreich gehörig und als luxuriöse Seebäder bekannt.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "16308051008387469731.wav",
+          "referenz": "Bis 1976 wurden dreißig Prozent von Machu Picchu restauriert, und die Restaurierungsarbeiten dauern bis heute an.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "9934294391860911787.wav",
+          "referenz": "Der kalifornische Gouverneur Arnold Schwarzenegger unterzeichnete einen Gesetzentwurf, der den Verkauf oder Verleih von Videospielen, die Gewalt beinhalten, an Minderjährige verbietet.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "14375554165720834922.wav",
+          "referenz": "Bald nach dem Ausbruch von Kampfhandlungen initiierte Großbritannien eine Seeblockade gegen Deutschland.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "15040514611974983460.wav",
+          "referenz": "Virtuelle Teams werden nach den gleichen Exzellenzstandards geführt wie konventionelle Teams, aber es gibt subtile Unterschiede.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "11438904996847579220.wav",
+          "referenz": "\"Perry erklärte, er werde „nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt\"\", aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.\"",
+          "erkannt": "",
+          "fehler": 49
+        },
+        {
+          "datei": "2734197967797707964.wav",
+          "referenz": "Es hat uns die Eisenbahn, das Auto und viele andere Transportmittel gebracht.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "8541622485160879804.wav",
+          "referenz": "Apia ist die auf der Insel Upolu liegende Hauptstadt von Samoa und weist eine Einwohnerzahl von knapp unter 40.000 auf.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "13269734152533630938.wav",
+          "referenz": "Wir wissen es nicht sicher, aber er könnte eine gegabelte Zunge gehabt haben. Er ernährte sich von Schildkröten, großen Fischen, anderen Mosasauriern und war vielleicht sogar ein Kannibale.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "11958203825106619638.wav",
+          "referenz": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwens, sondern eher wie ein Satz aus knurrigen gebrüllten Worten.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "12628233572987997427.wav",
+          "referenz": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+          "erkannt": "",
+          "fehler": 10
+        },
+        {
+          "datei": "4515480142585050048.wav",
+          "referenz": "Der Absturz ereignete sich hoch oben in bergigem Gelände, und es wird vermutet, dass er das Ergebnis von feindlichem Beschuss war.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "10095057775426831514.wav",
+          "referenz": "Blogs können auch dazu beitragen, die Schreibfertigkeiten von Schülern zu verbessern. Zwar haben Schüler am Anfang ihrer Blogerfahrung oft eine schlampige Grammatik und Rechtschreibung, aber das ändert sich normalerweise, wenn es ein Publikum gibt.",
+          "erkannt": "",
+          "fehler": 34
+        },
+        {
+          "datei": "11955192556101782814.wav",
+          "referenz": "In ihren frühen Tagen wurde die Show nur auf der altgedienten Internetradioseite TogiNet Radio gezeigt, eine Site, die den Schwerpunkt auf Talkradio legt.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "12058857074198713343.wav",
+          "referenz": "Im warmen Klima des Mittleren Ostens kamen Häusern keine so große bedeutung zu.",
+          "erkannt": "",
+          "fehler": 13
+        },
+        {
+          "datei": "14050580181786701671.wav",
+          "referenz": "Schlafunterbrechnung ist der Prozess des zielgerichteten Aufwachens während der normalen Schlafperioden und des Einschlafens kurze Zeit (10-60 Minuten) später.",
+          "erkannt": "Schnauf und auf uns schnafen schlafen",
+          "fehler": 19
+        },
+        {
+          "datei": "12158105387710574116.wav",
+          "referenz": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "6774134272436393651.wav",
+          "referenz": "Man darf gespannt sein, was aus der Tastatur werden wird, wenn etwas Neueres daherkommt.",
+          "erkannt": "",
+          "fehler": 14
+        },
+        {
+          "datei": "15546224334452981832.wav",
+          "referenz": "Die Stadt ist auch der Ausgangspunkt für die Besteigung des Vulkans Nyiragongo sowie für einige der billigsten Berggorilla-Trackingtouren in Afrika.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "18252576043058323640.wav",
+          "referenz": "Zwischen den einzelnen Dynastien herrschten auch unbeständige Zeiten geteilter Provinzen. Die bekannteste dieser Perioden war die Epoche der Drei Königreiche, die 60 Jahre lang zwischen der Han- und der Jin-Dynastie stattfand.",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "15610717007160579426.wav",
+          "referenz": "Wenn Sie es nicht gewohnt sind, auf Landstraßen zu fahren, bleiben Sie achtsam: steiles Gefälle, enge Fahrbahnen und scharfe Kurven überwiegen hier.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "18147896924797983877.wav",
+          "referenz": "Die Höhle befindet sich auf der Spitze eines der Berge nördlich von Mekka und ist vom Rest der Welt völlig isoliert.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "112002364196740352.wav",
+          "referenz": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen sowie bis zu dreißig Weibchen und Jungen.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "18133188646735729539.wav",
+          "referenz": "Die Kritik der Liberalen am Wiederaufbauprozess hat sich darauf konzentriert, dass Aufträge für den Wiederaufbau an vermeintliche Insider in Washingtoner vergeben wurden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "13422973846971337023.wav",
+          "referenz": "Die Korrelation zwischen Gehirnpathologie und Verhalten stützt Wissenschaftler in ihrer Forschung.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "9742417165684113780.wav",
+          "referenz": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "3702978878419561855.wav",
+          "referenz": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+          "erkannt": "",
+          "fehler": 18
+        },
+        {
+          "datei": "6482660284125644969.wav",
+          "referenz": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat, es ist allerdings bekannt, dass das große Pergamentdokument (welches 29¾ Zoll x 24½ Zoll misst) zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "18196254767307361725.wav",
+          "referenz": "Exkursionen sind ein wichtiger Bestandteil für jede Schulklasse. Nicht selten würde eine Lehrerin ihre Schülerinnen und Schüler gerne an Orte bringen, zu denen eine Busfahrt nicht in Frage kommt.",
+          "erkannt": "",
+          "fehler": 29
+        },
+        {
+          "datei": "11346066260334094005.wav",
+          "referenz": "Feuchte Kleidung zu bügeln kann beim Trocknen helfen. Viele Hotels verleihen Bügeleisen und Bügelbrett, auch wenn man man nicht im Zimmer anwesend ist.",
+          "erkannt": "Frost, busen, trotten, half, full, and",
+          "fehler": 23
+        },
+        {
+          "datei": "8385828782945353218.wav",
+          "referenz": "Casablanca ist einer der uninteressantesten Orte zum Shoppen in ganz Marokko.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "16846909353761153442.wav",
+          "referenz": "Dem Leak zufolge bezieht sich das Dokument auf den Grenzstreit, in dem die Palästinenser ein Zurücksetzen der Grenzen in den Zustand vor dem Sechstagekrieg von 1967 fordern.",
+          "erkannt": "",
+          "fehler": 27
+        },
+        {
+          "datei": "15145909350398789793.wav",
+          "referenz": "Der US-amerikanische Ingenieurskorps schätzte , dass 6 Zoll Regen die schon zuvor beschädigten Dämme brechen lassen könnten.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "2835934118517986318.wav",
+          "referenz": "Beispielsweise entwerfen Studenten der Bennet School in North Carolina jedes Jahr eine Webseite über ihre Reise in die Hauptstadt des Bundesstaates. Die Webseite wird jedes Jahr umgebaut, aber die Vorgängerversionen bleiben jedoch online  und dienen als Sammelalbum.",
+          "erkannt": "",
+          "fehler": 37
+        },
+        {
+          "datei": "11023957874481563686.wav",
+          "referenz": "Wenn Sie im Winter die nördliche Ostsee überqueren, überprüfen Sie die Lage der Kabine, da das Durchbrechen von Eis für die am stärksten Betroffenen ziemlich schrecklichen Lärm verursacht.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "4099911901963505193.wav",
+          "referenz": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "16587003122171728105.wav",
+          "referenz": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 km vom bangladeschischen und indischen Hinterland bis an die Küste.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "11770437002202590425.wav",
+          "referenz": "Danielle Lantagne, ein UN-Experte für die Krankheit, stellte fest, dass der Ausbruch vermutlich von den Blauhelmen verursacht wurde.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "3215934834432526420.wav",
+          "referenz": "Die Hauptstadt von Moldawien ist Kischinau. Die einheimische Sprache ist Rumänisch, aber viele Menschen sprechen auch Russisch.",
+          "erkannt": "Die Hauptstadt spraches. Aber fillen spreshen, ros",
+          "fehler": 14
+        },
+        {
+          "datei": "4368862231706717109.wav",
+          "referenz": "Die Sundarbans sind seit 1966 ein Naturschutzgebiet, und Schätzungen zufolge halten sich dort mittlerweile 400 bengalische Königstiger und etwa 30.000 gefleckte Hirsche auf.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "8941962506399972073.wav",
+          "referenz": "In vielen anderen Städten in Italien und dem Rest der Welt, besonders in Polen, wurden ähnliche Einrichtungen installiert, die von zahlreichen Menschen gesehen wurden.",
+          "erkannt": "Die uns?",
+          "fehler": 23
+        },
+        {
+          "datei": "14581722995429385558.wav",
+          "referenz": "Im Ergebnis kann die gemeinschaftliche Arbeit einer Organisation an der Überwindung eines Hindernisses zu einem neuen innovativen Verfahren führen, auf das Kundenbedürfnis einzugehen.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "12233087638570381988.wav",
+          "referenz": "Die Schlagmänner der mittleren Reihe, Sachin Tendulkar und Rahul Dravid, zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+          "erkannt": "Die schlagnen Schau.",
+          "fehler": 19
+        },
+        {
+          "datei": "6224763261339938512.wav",
+          "referenz": "Er wurde zunächst in das James Paget Krankenhaus in Great Yarmouth eingeliefert.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "5260016815738444266.wav",
+          "referenz": "Die heiße Schokolade entspricht belgischen Standards. Fruchtsäfte sind zwar teuer, aber hervorragend.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "6420181749332444605.wav",
+          "referenz": "Vor der Ankunft der Truppen waren in Haiti seit den 1800er Jahren keine Probleme im Zusammenhang mit der Krankheit aufgetreten.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "5415840460724948579.wav",
+          "referenz": "Busse fahren den ganzen Tag über vom distriktübergreifenden Busbahnhof (auf der anderen Seite des Flusses) ab, wobei die meisten Busse, vor allem die in Richtung Osten und Jakar/Bumthang, zwischen 06:30 und 07:30 Uhr abfahren.",
+          "erkannt": "",
+          "fehler": 37
+        },
+        {
+          "datei": "4932595101551775223.wav",
+          "referenz": "Das Seitenverhältnis dieses Formats (geteilt durch zwölf, um das einfachste ganzzahlige Verhältnis zu erhalten) wird daher als 3:2 bezeichnet.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "4103906298154500378.wav",
+          "referenz": "Der verbreitete Automobilbesitz führt auch zu einer höheren Anzahl von Unfällen auf den Straßen, was wiederum zur Erfindung von neuen Techniken im Gesundheitswesen zur Reparatur beschädigter Körper führt.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "5634170789615420358.wav",
+          "referenz": "Wie alle südafrikanischen Nationalparks erhebt der Park tägliche Schutz- und Eintrittsgebühren.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "12661293915709573159.wav",
+          "referenz": "Reisende, deren Zielland eine hohe Besteuerung aufweist, können manchmal eine beträchtliche Menge an Geld sparen, insbesondere bei Produkten wie alkoholischen Getränken und Tabak.",
+          "erkannt": "Reise, nonsennen, trinken",
+          "fehler": 23
+        },
+        {
+          "datei": "16286901038396978467.wav",
+          "referenz": "Die Brücke soll im September 2017 vollständig den Betrieb aufnehmen. Es wird erwartet, dass die brasilianischen Zollkontrollpunkte dann fertig gestellt sein werden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "4138553571604325890.wav",
+          "referenz": "Finnland ist ein großartiges Reiseziel für Bootstouren. Das „Land der tausend Seen“ hat auch Tausende von Inseln – in den Seen und in den Küstenarchipelen.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "1238534740793676350.wav",
+          "referenz": "Angel (2006) erläutert das Kontinuum-Konzept als eine Methode, um Organisationen zu helfen, leistungsfähiger zu werden.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "3665385397206262993.wav",
+          "referenz": "Die Aufgabe der Marine war traditionell sicherzustellen, dass ein Land in der Lage bleibt, Menschen und Güter zu befördern, und gleichzeitig die Fähigkeit des Feindes zur Beförderung von Menschen und Gütern zu behindern.",
+          "erkannt": "Die aufgabet man rin zu stehen, das anleibt, menschen und gut hat, zu befordert und leicht zu befordert und menschen und gut hat zu den",
+          "fehler": 27
+        },
+        {
+          "datei": "3829034906131924055.wav",
+          "referenz": "Die Krankheit wird von Schweinen übertragen und wandert dann durch Mücken zum Menschen.",
+          "erkannt": "Die trench?",
+          "fehler": 12
+        },
+        {
+          "datei": "230273595301736083.wav",
+          "referenz": "„Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.“",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3958673872731882523.wav",
+          "referenz": "Der Kohlsaft ändert seine Farbe, je nachdem wie sauer oder basisch (alkalisch) die Chemikalie ist.",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "8587622497637816205.wav",
+          "referenz": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdrucks richtig deutet.x",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "13449881168142521253.wav",
+          "referenz": "Als vielseitiger Athlet kann der Tiger klettern (wenn auch nicht besonders gut), schwimmen, große Strecken springen und mit der fünffachen Kraft eines starken Menschen ziehen.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "14866455417746131187.wav",
+          "referenz": "Im Zentrum der tibetischen Meditation steht das Götter-Yoga. Durch die Visualisierung verschiedener Gottheiten werden die Energiekanäle gereinigt, die Chakren geöffnet und das erleuchtete Bewusstsein entsteht.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "17047810064400454397.wav",
+          "referenz": "Wenn man eine romanische Sprache spricht, ist es  natürlich leichter, Portugiesisch zu erlernen.",
+          "erkannt": "",
+          "fehler": 13
+        },
+        {
+          "datei": "14959894582751932231.wav",
+          "referenz": "Diese Theorien befassen sich damit, was bestimmte Menschen dazu veranlasst, genau die Dinge zu wollen, die sie tun, und welche Einflüsse in ihrer Umgebung sie dazu bringen, bestimmte Dinge zu tun oder nicht zu tun.",
+          "erkannt": "Die, rien, das stum, das den",
+          "fehler": 34
+        },
+        {
+          "datei": "5004631519743481392.wav",
+          "referenz": "KI wird zwar stark mit Science Fiction assoziiert, ist jedoch ein wichtiger Zweig der Computerwissenschaften, der sich mit Verhalten, Lernen und intelligenter Anpassung von Maschinen beschäftigt.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "12672564667160952922.wav",
+          "referenz": "Regionale und jahreszeitliche Unwettererscheinungen sind u. a. Blizzards, Schneestürme, Eisstürme und Staubstürme.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "177350811651237373.wav",
+          "referenz": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+          "erkannt": "Nun, sad, ne, stößen, und",
+          "fehler": 29
+        },
+        {
+          "datei": "6753945967797226570.wav",
+          "referenz": "Die Epoche, in der die Ereignisse stattfanden, wird gemeinhin als Hochmittelalter bezeichnet, ein Zeitalter in der europäischen Geschichte, das sich über das 11., 12. und 13 Jahrhundert erstreckt (1000–1300 n. Chr.).",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "3166760679296371275.wav",
+          "referenz": "Analog dazu müssen Männer Hosen tragen, die über die Knie reichen.",
+          "erkannt": "An adopt",
+          "fehler": 11
+        },
+        {
+          "datei": "2745275940392191404.wav",
+          "referenz": "Man erwartet vielleicht nicht, dass auch zurückkehrenden Reisenden gegenüber Geduld und Verständnis erforderlich sind.",
+          "erkannt": "",
+          "fehler": 14
+        },
+        {
+          "datei": "10308608197319017935.wav",
+          "referenz": "Diese Paare können sich für einen Adoptionsplan für ihr Baby entscheiden.",
+          "erkannt": "Die sehen schade",
+          "fehler": 11
+        },
+        {
+          "datei": "6819214157962336157.wav",
+          "referenz": "Ein einfaches beliebtes Abendessen, besonders im Sommer, ist das Pa amb Oli: Brot mit Olivenöl, Tomaten und jeglicher gerade verfügbarer Zutat wie Käse, Thunfisch usw.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "16494061853339361777.wav",
+          "referenz": "Professorin Pamela Ferguson von der University of Dundee merkt an: „Journalisten scheinen eine gefährliche Grenze zu überschreiten, wenn Sie Fotos usw. von Verdächtigen veröffentlichen.“",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "17405690478792925480.wav",
+          "referenz": "Das erscheint vernünftig, da es einem nicht so vorkommt, als ob sich die Erde bewegt, oder?",
+          "erkannt": "Das erschang nicht so.",
+          "fehler": 13
+        },
+        {
+          "datei": "11290601054905065123.wav",
+          "referenz": "USA Gymnastics und das USOC haben das gleiche Ziel - den Turnsport und andere Sportarten für die Athleten so sicher wie möglich zu machen, damit sie ihren Träumen in einer sicheren, positiven und selbstbestimmten Umgebung folgen können.",
+          "erkannt": "Nein, sie runden und selbst und um die können.",
+          "fehler": 33
+        },
+        {
+          "datei": "7739349083395946674.wav",
+          "referenz": "Eine Autobombe detonierte am Morgen des gestrigen Tages im Polizeipräsidium des türkischen Gaziantep, tötete zwei Polizisten und verwundete über zwanzig weitere Menschen.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "17473015524442462177.wav",
+          "referenz": "Der Einsatz von Schiffen für den Gütertransport ist die bei weitem effizienteste Methode zum Transport großer Menschen- und Gütermengen über die Ozeane.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "7129312313642011230.wav",
+          "referenz": "Layton hatte während des Treffens mit dem Premierminister Änderungen am Umweltgesetz der Konservativen gefordert und dabei eine „gründliche und vollständige Neufassung“ des Umweltgesetzes der Konservativen Partei verlangt.",
+          "erkannt": "",
+          "fehler": 27
+        },
+        {
+          "datei": "6754907113927429020.wav",
+          "referenz": "Die Polizeipräsidentin Chandra Shekhar Solanki gab an, die Angeklagten seien mit bedeckten Gesichtern vor Gericht erschienen.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "13556643934894880169.wav",
+          "referenz": "Das Krankenhaus befolgte Protokolle zum Infektionsschutz, einschließlich der Trennung des Patienten von anderen, um die Infektion Dritter zu vermeiden.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "14628762662867216090.wav",
+          "referenz": "Am späten Sonntag kündigte der Präsident der Vereinigten Staaten, Donald Trump, in einer durch den Pressesekretär verlesenen Erklärung an, dass die US-Truppen Syrien verlassen würden.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "781298712249931542.wav",
+          "referenz": "Für die Springboks endete eine fünf Spiele lange Verlustserie.",
+          "erkannt": "",
+          "fehler": 9
+        }
+      ]
+    },
+    "nemotron-auto": {
+      "ordner": "/home/runner/work/pegasus-models/pegasus-models/work/nemotron-unified-asr-0.6b-auto-q8pc",
+      "wer": 99.73,
+      "rtf": 0.0701,
+      "laden_s": 1.5,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leid,",
+          "fehler": 16
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "De non?",
+          "fehler": 19
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "",
+          "fehler": 31
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "",
+          "fehler": 35
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "",
+          "fehler": 8
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "",
+          "fehler": 18
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "",
+          "fehler": 35
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "Holds",
+          "fehler": 16
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "Skaffols",
+          "fehler": 28
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "",
+          "fehler": 29
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "",
+          "fehler": 31
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "Die kreuts fratten, sands kreuts frats, fliest.",
+          "fehler": 21
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "",
+          "fehler": 30
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "3310355866545863963.wav",
+          "referenz": "Eine Exkursion virtuell zu teilen ist auch eine tolle Art, um über eine Reise zu reflektieren und Erfahrungen mit zukünftigen Klassen zu teilen.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "1454742602800191156.wav",
+          "referenz": "Mit Kundalini-Yoga wird die Kundalini-Energie (Aufklärungsenergie) durch Yoga-Posen, Atemübungen, Mantras und Visualisierungen erweckt.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "17560320841359480181.wav",
+          "referenz": "Das ist der Ort, den sich die britischen Kolonisten zu eigen gemacht haben. Wenn Sie nach Spuren der kolonialen Vergangenheit des Gebiets suchen, ist dies ein guter Ausgangspunkt.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "8217437349829675281.wav",
+          "referenz": "Sie besagt, dass der Kreuzungspunkt der Linien, die ein Bild vertikal und horizontal dritteln, der effektivste Platz für das Hauptmotiv ist (siehe Beispiel).",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "980502554629108510.wav",
+          "referenz": "Verschandeln Sie die Stätte nicht durch Anbringen oder Einkratzen von Graffiti.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "10376367261184486277.wav",
+          "referenz": "\"Ihr thermisches Verhalten ist nicht so gleichmäßig wie das großer Höhlen auf der Erde, die oft eine ziemlich konstante Temperatur haben, aber es stimmt damit überein, dass es sich um tiefe Löcher im Boden handelt\"\", sagte Glen Cushing vom Astrogeologie-Team des United States Geological Survey (USGS) und der Northern Arizona University in Flagstaff, Arizona.\"",
+          "erkannt": "",
+          "fehler": 55
+        },
+        {
+          "datei": "9320383698486854080.wav",
+          "referenz": "Mit dem Verlust griechischer Sprachkenntnisse war der Westen von seinen philosophischen und wissenschaftlichen Wurzeln in Griechenland abgeschnitten.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "2871815018664803360.wav",
+          "referenz": "Eine Bombe explodierte vor dem Bürogebäude des Generalgouverneurs.",
+          "erkannt": "Ne, ne for det",
+          "fehler": 8
+        },
+        {
+          "datei": "28000901092627742.wav",
+          "referenz": "Der Dienst wird häufig von Schiffen genutzt, darunter auch von Vergnügungsschiffen, sowie von Expeditionen, die Daten- und Sprachfernverbindungen benötigen.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "11358709825893278584.wav",
+          "referenz": "Manche Menschen dachten, dass er recht habe, doch viele glaubten das Gegenteil: Dass sich das Sonnensystem einschließlich der Sonne (und sogar der anderen Sterne) um die Erde bewege.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "4037863062363267429.wav",
+          "referenz": "\"\"\"Er [Wales] hat uns im Grunde von Anfang an belogen. Erstens, indem er so tat, als ob dies aus rechtlichen Gründen geschah. Zweitens, indem er so tat, als würde er uns zuhören, bis hin zu seiner Kunstlöschung.\"\"\"",
+          "erkannt": "",
+          "fehler": 37
+        },
+        {
+          "datei": "12203116308364043833.wav",
+          "referenz": "\"Eine Internetsuche nach \"\"Kurs über feindselige Umgebungen\"\" wird vermutlich die Adresse eine örtlichen Firma anzeigen.\"",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "12798784392566195777.wav",
+          "referenz": "Tatsächlich ist sie ganz und gar nicht einfach zu finden, auch wenn man weiß, dass sie existiert. Sobald man sich in der Höhle befindet, ist man vollkommen isoliert.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "8157813197855128219.wav",
+          "referenz": "Die derzeitige Senatorin und argentinische First Lady Cristina Fernandez de Kirchner gab gestern Abend in La Plata, einer Stadt 50 Kilometer von Buenos Aires entfernt, ihre Präsidentschaftskandidatur bekannt.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "17911185814913155585.wav",
+          "referenz": "Zunächst einmal tragen die meisten Reiter Reitstiefel mit einem Absatz und einer glatten, recht schmalen Sohle.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "17517705986264119264.wav",
+          "referenz": "Die 25 Dunlap-Breitseiten, die es noch gibt, sind die ältesten noch existierenden Kopien des Dokuments. Die Originalhandschrift hat die Zeiten nicht überdauert.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "16891670336471039372.wav",
+          "referenz": "Sie haben normalerweise ein besonderes Angebot an Speisen, Getränken und Unterhaltung, um die Gäste bei Laune zu halten und dafür zu sorgen, dass sie bleiben.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "3302798769392930530.wav",
+          "referenz": "Wasserstoffionen sind Protonen, denen ihre Elektronen entzogen wurden (denn Wasserstoffatome bestehen aus einem Proton und einem Elektron).",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "13733246753245083133.wav",
+          "referenz": "Löwen sind die sozialsten Katzen. Sie leben in großen Gruppen, die Rudel genannt werden.",
+          "erkannt": "",
+          "fehler": 14
+        },
+        {
+          "datei": "10618529918679729733.wav",
+          "referenz": "Wegen der Unterwassertopologie konzentriert sich der Rückfluss in wenigen tieferen Bereichen und eine schnelle Strömung bis hin zu tiefem Wasser kann sich dort bilden.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "1466939857313988817.wav",
+          "referenz": "Für die besten Aussichten auf Hongkong sollten Sie die Insel verlassen und zum gegenüberliegenden Ufer von Kowloon fahren.",
+          "erkannt": "",
+          "fehler": 18
+        },
+        {
+          "datei": "3975961929423531534.wav",
+          "referenz": "Die Strategie erwies sich als effektiv, da sie das Land von lebenswichtigen militärischen und zivilen Lieferungen abschnitt, obwohl diese Blockade gegen das allgemein anerkannte Völkerrecht verstieß, das durch mehrere internationale Abkommen der letzten zwei Jahrhunderte kodifiziert worden war.",
+          "erkannt": "",
+          "fehler": 38
+        },
+        {
+          "datei": "15175045596108872942.wav",
+          "referenz": "Legierungen sind im Grunde eine Mischung aus zwei oder mehr Metallen. Vergessen Sie nicht, dass es viele Elemente im Periodensystem gibt.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "10271188615398617841.wav",
+          "referenz": "In seinem Artikel Die Rede des Präsidenten zeigte Oliver Sacks auf, wie Leute, die wegen eines Hirnschadens keine Sprache mehr verstehen können, trotzdem die Ehrlichkeit von Menschen richtig einschätzen können.",
+          "erkannt": "",
+          "fehler": 30
+        },
+        {
+          "datei": "2479748272693363305.wav",
+          "referenz": "Seit der Gründung von Asunción 1537 ist es Paraguay gelungen, viel von seinem indigenen Charakter und seiner Identität zu bewahren.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "11842575003338313546.wav",
+          "referenz": "Weitere Themen auf der Tagesordnung in Bali sind die Rettung der noch verbliebenen Wälder der Welt und die gemeinsame Nutzung von Technologien, die den Entwicklungsländern helfen sollen, auf weniger umweltschädliche Weise zu wachsen.",
+          "erkannt": "",
+          "fehler": 33
+        },
+        {
+          "datei": "15660385534242761942.wav",
+          "referenz": "MS ist eine Krankheit, die das zentrale Nervensystem beeinträchtigt, das sich aus dem Gehirn, dem Rückenmark und dem Sehnerv zusammensetzt.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "14242568589524674411.wav",
+          "referenz": "Die Fotografen nahmen den Platz einer älteren Dame ein, als sie zur Toilette musste. Mendoza wurde erschossen.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "5588377578874001231.wav",
+          "referenz": "Forscher der Princeton University in den Vereinigten Staaten und der Uppsala University in Schweden berichteten, die neue Art habe sich innerhalb von nur zwei Generationen entwickelt, obwohl man zuvor angenommen hatte, dass dieser Vorgang aufgrund der Paarung zwischen einem einheimischen Darwinfink, Geospiza fortes, und dem eingewanderten Kaktusfink, Geospiza conirostris, viel länger dauerte.",
+          "erkannt": "",
+          "fehler": 52
+        },
+        {
+          "datei": "3857129364489692667.wav",
+          "referenz": "Die meisten der kleineren Inseln sind unabhängige Nationen oder zu Frankreich gehörig und als luxuriöse Seebäder bekannt.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "16308051008387469731.wav",
+          "referenz": "Bis 1976 wurden dreißig Prozent von Machu Picchu restauriert, und die Restaurierungsarbeiten dauern bis heute an.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "9934294391860911787.wav",
+          "referenz": "Der kalifornische Gouverneur Arnold Schwarzenegger unterzeichnete einen Gesetzentwurf, der den Verkauf oder Verleih von Videospielen, die Gewalt beinhalten, an Minderjährige verbietet.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "14375554165720834922.wav",
+          "referenz": "Bald nach dem Ausbruch von Kampfhandlungen initiierte Großbritannien eine Seeblockade gegen Deutschland.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "15040514611974983460.wav",
+          "referenz": "Virtuelle Teams werden nach den gleichen Exzellenzstandards geführt wie konventionelle Teams, aber es gibt subtile Unterschiede.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "11438904996847579220.wav",
+          "referenz": "\"Perry erklärte, er werde „nach Texas zurückkehren, um das Ergebnis der Vorwahl von heute Abend auszuwerten und zu entscheiden, ob es in diesem Rennen einen weiterführenden Weg für mich gibt\"\", aber sagte später, er werde im Rennen bleiben und bei den Vorwahlen in South Carolina am 21. Januar antreten.\"",
+          "erkannt": "",
+          "fehler": 49
+        },
+        {
+          "datei": "2734197967797707964.wav",
+          "referenz": "Es hat uns die Eisenbahn, das Auto und viele andere Transportmittel gebracht.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "8541622485160879804.wav",
+          "referenz": "Apia ist die auf der Insel Upolu liegende Hauptstadt von Samoa und weist eine Einwohnerzahl von knapp unter 40.000 auf.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "13269734152533630938.wav",
+          "referenz": "Wir wissen es nicht sicher, aber er könnte eine gegabelte Zunge gehabt haben. Er ernährte sich von Schildkröten, großen Fischen, anderen Mosasauriern und war vielleicht sogar ein Kannibale.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "11958203825106619638.wav",
+          "referenz": "Das Gebrüll des Tigers hört sich nicht so an wie das vollmundige Gebrüll des Löwens, sondern eher wie ein Satz aus knurrigen gebrüllten Worten.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "12628233572987997427.wav",
+          "referenz": "Parisern sagt man nach, egozentrisch, unhöflich und arrogant zu sein.",
+          "erkannt": "",
+          "fehler": 10
+        },
+        {
+          "datei": "4515480142585050048.wav",
+          "referenz": "Der Absturz ereignete sich hoch oben in bergigem Gelände, und es wird vermutet, dass er das Ergebnis von feindlichem Beschuss war.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "10095057775426831514.wav",
+          "referenz": "Blogs können auch dazu beitragen, die Schreibfertigkeiten von Schülern zu verbessern. Zwar haben Schüler am Anfang ihrer Blogerfahrung oft eine schlampige Grammatik und Rechtschreibung, aber das ändert sich normalerweise, wenn es ein Publikum gibt.",
+          "erkannt": "",
+          "fehler": 34
+        },
+        {
+          "datei": "11955192556101782814.wav",
+          "referenz": "In ihren frühen Tagen wurde die Show nur auf der altgedienten Internetradioseite TogiNet Radio gezeigt, eine Site, die den Schwerpunkt auf Talkradio legt.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "12058857074198713343.wav",
+          "referenz": "Im warmen Klima des Mittleren Ostens kamen Häusern keine so große bedeutung zu.",
+          "erkannt": "",
+          "fehler": 13
+        },
+        {
+          "datei": "14050580181786701671.wav",
+          "referenz": "Schlafunterbrechnung ist der Prozess des zielgerichteten Aufwachens während der normalen Schlafperioden und des Einschlafens kurze Zeit (10-60 Minuten) später.",
+          "erkannt": "Schnaf und toch schnafen schlafen",
+          "fehler": 19
+        },
+        {
+          "datei": "12158105387710574116.wav",
+          "referenz": "Der Archipel liegt 120 km nördlich der Halbinsel. Die größte ist King George Island mit der Siedlung Villa Las Estrellas.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "6774134272436393651.wav",
+          "referenz": "Man darf gespannt sein, was aus der Tastatur werden wird, wenn etwas Neueres daherkommt.",
+          "erkannt": "",
+          "fehler": 14
+        },
+        {
+          "datei": "15546224334452981832.wav",
+          "referenz": "Die Stadt ist auch der Ausgangspunkt für die Besteigung des Vulkans Nyiragongo sowie für einige der billigsten Berggorilla-Trackingtouren in Afrika.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "18252576043058323640.wav",
+          "referenz": "Zwischen den einzelnen Dynastien herrschten auch unbeständige Zeiten geteilter Provinzen. Die bekannteste dieser Perioden war die Epoche der Drei Königreiche, die 60 Jahre lang zwischen der Han- und der Jin-Dynastie stattfand.",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "15610717007160579426.wav",
+          "referenz": "Wenn Sie es nicht gewohnt sind, auf Landstraßen zu fahren, bleiben Sie achtsam: steiles Gefälle, enge Fahrbahnen und scharfe Kurven überwiegen hier.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "18147896924797983877.wav",
+          "referenz": "Die Höhle befindet sich auf der Spitze eines der Berge nördlich von Mekka und ist vom Rest der Welt völlig isoliert.",
+          "erkannt": "",
+          "fehler": 21
+        },
+        {
+          "datei": "112002364196740352.wav",
+          "referenz": "Die Rudel bestehen aus ein bis drei verwandten erwachsenen Männchen sowie bis zu dreißig Weibchen und Jungen.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "18133188646735729539.wav",
+          "referenz": "Die Kritik der Liberalen am Wiederaufbauprozess hat sich darauf konzentriert, dass Aufträge für den Wiederaufbau an vermeintliche Insider in Washingtoner vergeben wurden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "13422973846971337023.wav",
+          "referenz": "Die Korrelation zwischen Gehirnpathologie und Verhalten stützt Wissenschaftler in ihrer Forschung.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "9742417165684113780.wav",
+          "referenz": "Europa ist ein relativ kleiner Kontinent, hat aber zahlreiche unabhängige Länder. Normalerweise müsste man mehrfach Visa beantragen und mehrere Passkontrollen durchlaufen, wenn man durch mehrere Länder reisen möchte.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "3702978878419561855.wav",
+          "referenz": "Die Romantik hatte ein starkes, kulturell deterministisches Element, das sich aus Schriftstellern wie Goethe, Fichte und Schlegel schöpfte.",
+          "erkannt": "",
+          "fehler": 18
+        },
+        {
+          "datei": "6482660284125644969.wav",
+          "referenz": "Zwar weiß niemand mit Sicherheit, wer es geschrieben hat, es ist allerdings bekannt, dass das große Pergamentdokument (welches 29¾ Zoll x 24½ Zoll misst) zu Beginn seines Lebens zur Aufbewahrung zusammengerollt wurde.",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "18196254767307361725.wav",
+          "referenz": "Exkursionen sind ein wichtiger Bestandteil für jede Schulklasse. Nicht selten würde eine Lehrerin ihre Schülerinnen und Schüler gerne an Orte bringen, zu denen eine Busfahrt nicht in Frage kommt.",
+          "erkannt": "",
+          "fehler": 29
+        },
+        {
+          "datei": "11346066260334094005.wav",
+          "referenz": "Feuchte Kleidung zu bügeln kann beim Trocknen helfen. Viele Hotels verleihen Bügeleisen und Bügelbrett, auch wenn man man nicht im Zimmer anwesend ist.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "8385828782945353218.wav",
+          "referenz": "Casablanca ist einer der uninteressantesten Orte zum Shoppen in ganz Marokko.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "16846909353761153442.wav",
+          "referenz": "Dem Leak zufolge bezieht sich das Dokument auf den Grenzstreit, in dem die Palästinenser ein Zurücksetzen der Grenzen in den Zustand vor dem Sechstagekrieg von 1967 fordern.",
+          "erkannt": "",
+          "fehler": 27
+        },
+        {
+          "datei": "15145909350398789793.wav",
+          "referenz": "Der US-amerikanische Ingenieurskorps schätzte , dass 6 Zoll Regen die schon zuvor beschädigten Dämme brechen lassen könnten.",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "2835934118517986318.wav",
+          "referenz": "Beispielsweise entwerfen Studenten der Bennet School in North Carolina jedes Jahr eine Webseite über ihre Reise in die Hauptstadt des Bundesstaates. Die Webseite wird jedes Jahr umgebaut, aber die Vorgängerversionen bleiben jedoch online  und dienen als Sammelalbum.",
+          "erkannt": "",
+          "fehler": 37
+        },
+        {
+          "datei": "11023957874481563686.wav",
+          "referenz": "Wenn Sie im Winter die nördliche Ostsee überqueren, überprüfen Sie die Lage der Kabine, da das Durchbrechen von Eis für die am stärksten Betroffenen ziemlich schrecklichen Lärm verursacht.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "4099911901963505193.wav",
+          "referenz": "Die Durchfahrtshöhe unter der Brücke beträgt 15 Meter. Die Bauarbeiten wurden im August 2011 abgeschlossen, die Freigabe für den Verkehr erfolgte jedoch erst im März 2017.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "16587003122171728105.wav",
+          "referenz": "Die Sundarbans sind der größte Mangrovengürtel der Welt und erstrecken sich über 80 km vom bangladeschischen und indischen Hinterland bis an die Küste.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "11770437002202590425.wav",
+          "referenz": "Danielle Lantagne, ein UN-Experte für die Krankheit, stellte fest, dass der Ausbruch vermutlich von den Blauhelmen verursacht wurde.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "3215934834432526420.wav",
+          "referenz": "Die Hauptstadt von Moldawien ist Kischinau. Die einheimische Sprache ist Rumänisch, aber viele Menschen sprechen auch Russisch.",
+          "erkannt": "De haubsumodien spraches runes. Aber filles spreshen og rosus.",
+          "fehler": 16
+        },
+        {
+          "datei": "4368862231706717109.wav",
+          "referenz": "Die Sundarbans sind seit 1966 ein Naturschutzgebiet, und Schätzungen zufolge halten sich dort mittlerweile 400 bengalische Königstiger und etwa 30.000 gefleckte Hirsche auf.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "8941962506399972073.wav",
+          "referenz": "In vielen anderen Städten in Italien und dem Rest der Welt, besonders in Polen, wurden ähnliche Einrichtungen installiert, die von zahlreichen Menschen gesehen wurden.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "14581722995429385558.wav",
+          "referenz": "Im Ergebnis kann die gemeinschaftliche Arbeit einer Organisation an der Überwindung eines Hindernisses zu einem neuen innovativen Verfahren führen, auf das Kundenbedürfnis einzugehen.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "12233087638570381988.wav",
+          "referenz": "Die Schlagmänner der mittleren Reihe, Sachin Tendulkar und Rahul Dravid, zeigten gute Leistungen und erzielten eine Partnerschaft mit 100 Runs.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "6224763261339938512.wav",
+          "referenz": "Er wurde zunächst in das James Paget Krankenhaus in Great Yarmouth eingeliefert.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "5260016815738444266.wav",
+          "referenz": "Die heiße Schokolade entspricht belgischen Standards. Fruchtsäfte sind zwar teuer, aber hervorragend.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "6420181749332444605.wav",
+          "referenz": "Vor der Ankunft der Truppen waren in Haiti seit den 1800er Jahren keine Probleme im Zusammenhang mit der Krankheit aufgetreten.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "5415840460724948579.wav",
+          "referenz": "Busse fahren den ganzen Tag über vom distriktübergreifenden Busbahnhof (auf der anderen Seite des Flusses) ab, wobei die meisten Busse, vor allem die in Richtung Osten und Jakar/Bumthang, zwischen 06:30 und 07:30 Uhr abfahren.",
+          "erkannt": "",
+          "fehler": 37
+        },
+        {
+          "datei": "4932595101551775223.wav",
+          "referenz": "Das Seitenverhältnis dieses Formats (geteilt durch zwölf, um das einfachste ganzzahlige Verhältnis zu erhalten) wird daher als 3:2 bezeichnet.",
+          "erkannt": "",
+          "fehler": 20
+        },
+        {
+          "datei": "4103906298154500378.wav",
+          "referenz": "Der verbreitete Automobilbesitz führt auch zu einer höheren Anzahl von Unfällen auf den Straßen, was wiederum zur Erfindung von neuen Techniken im Gesundheitswesen zur Reparatur beschädigter Körper führt.",
+          "erkannt": "",
+          "fehler": 28
+        },
+        {
+          "datei": "5634170789615420358.wav",
+          "referenz": "Wie alle südafrikanischen Nationalparks erhebt der Park tägliche Schutz- und Eintrittsgebühren.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "12661293915709573159.wav",
+          "referenz": "Reisende, deren Zielland eine hohe Besteuerung aufweist, können manchmal eine beträchtliche Menge an Geld sparen, insbesondere bei Produkten wie alkoholischen Getränken und Tabak.",
+          "erkannt": "",
+          "fehler": 23
+        },
+        {
+          "datei": "16286901038396978467.wav",
+          "referenz": "Die Brücke soll im September 2017 vollständig den Betrieb aufnehmen. Es wird erwartet, dass die brasilianischen Zollkontrollpunkte dann fertig gestellt sein werden.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "4138553571604325890.wav",
+          "referenz": "Finnland ist ein großartiges Reiseziel für Bootstouren. Das „Land der tausend Seen“ hat auch Tausende von Inseln – in den Seen und in den Küstenarchipelen.",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "1238534740793676350.wav",
+          "referenz": "Angel (2006) erläutert das Kontinuum-Konzept als eine Methode, um Organisationen zu helfen, leistungsfähiger zu werden.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "3665385397206262993.wav",
+          "referenz": "Die Aufgabe der Marine war traditionell sicherzustellen, dass ein Land in der Lage bleibt, Menschen und Güter zu befördern, und gleichzeitig die Fähigkeit des Feindes zur Beförderung von Menschen und Gütern zu behindern.",
+          "erkannt": "Die Aufgaberin tratt und gut hat zu befordern und leicht zu befordern von menschen und gut",
+          "fehler": 27
+        },
+        {
+          "datei": "3829034906131924055.wav",
+          "referenz": "Die Krankheit wird von Schweinen übertragen und wandert dann durch Mücken zum Menschen.",
+          "erkannt": "",
+          "fehler": 13
+        },
+        {
+          "datei": "230273595301736083.wav",
+          "referenz": "„Dies wird kein Abschied sein. Dies ist das Ende eines Kapitels und der Beginn eines neuen Kapitels.“",
+          "erkannt": "",
+          "fehler": 17
+        },
+        {
+          "datei": "3958673872731882523.wav",
+          "referenz": "Der Kohlsaft ändert seine Farbe, je nachdem wie sauer oder basisch (alkalisch) die Chemikalie ist.",
+          "erkannt": "",
+          "fehler": 15
+        },
+        {
+          "datei": "8587622497637816205.wav",
+          "referenz": "Insbesondere wird behauptet, dass man erkennen kann, ob jemand lügt, indem man minimale Veränderungen des Gesichtsausdrucks richtig deutet.x",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "13449881168142521253.wav",
+          "referenz": "Als vielseitiger Athlet kann der Tiger klettern (wenn auch nicht besonders gut), schwimmen, große Strecken springen und mit der fünffachen Kraft eines starken Menschen ziehen.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "14866455417746131187.wav",
+          "referenz": "Im Zentrum der tibetischen Meditation steht das Götter-Yoga. Durch die Visualisierung verschiedener Gottheiten werden die Energiekanäle gereinigt, die Chakren geöffnet und das erleuchtete Bewusstsein entsteht.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "17047810064400454397.wav",
+          "referenz": "Wenn man eine romanische Sprache spricht, ist es  natürlich leichter, Portugiesisch zu erlernen.",
+          "erkannt": "",
+          "fehler": 13
+        },
+        {
+          "datei": "14959894582751932231.wav",
+          "referenz": "Diese Theorien befassen sich damit, was bestimmte Menschen dazu veranlasst, genau die Dinge zu wollen, die sie tun, und welche Einflüsse in ihrer Umgebung sie dazu bringen, bestimmte Dinge zu tun oder nicht zu tun.",
+          "erkannt": "",
+          "fehler": 35
+        },
+        {
+          "datei": "5004631519743481392.wav",
+          "referenz": "KI wird zwar stark mit Science Fiction assoziiert, ist jedoch ein wichtiger Zweig der Computerwissenschaften, der sich mit Verhalten, Lernen und intelligenter Anpassung von Maschinen beschäftigt.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "12672564667160952922.wav",
+          "referenz": "Regionale und jahreszeitliche Unwettererscheinungen sind u. a. Blizzards, Schneestürme, Eisstürme und Staubstürme.",
+          "erkannt": "",
+          "fehler": 12
+        },
+        {
+          "datei": "177350811651237373.wav",
+          "referenz": "Normale Durchsagen erfolgen in der Metro ausschließlich auf Katalanisch, aber unvorhergesehene Störungen werden von einem automatisierten System in einer Vielzahl von Sprachen gemeldet, darunter Spanisch, Englisch, Französisch, Arabisch und Japanisch.",
+          "erkannt": "Nun madru, still spanes, undis",
+          "fehler": 30
+        },
+        {
+          "datei": "6753945967797226570.wav",
+          "referenz": "Die Epoche, in der die Ereignisse stattfanden, wird gemeinhin als Hochmittelalter bezeichnet, ein Zeitalter in der europäischen Geschichte, das sich über das 11., 12. und 13 Jahrhundert erstreckt (1000–1300 n. Chr.).",
+          "erkannt": "",
+          "fehler": 32
+        },
+        {
+          "datei": "3166760679296371275.wav",
+          "referenz": "Analog dazu müssen Männer Hosen tragen, die über die Knie reichen.",
+          "erkannt": "An adopt",
+          "fehler": 11
+        },
+        {
+          "datei": "2745275940392191404.wav",
+          "referenz": "Man erwartet vielleicht nicht, dass auch zurückkehrenden Reisenden gegenüber Geduld und Verständnis erforderlich sind.",
+          "erkannt": "",
+          "fehler": 14
+        },
+        {
+          "datei": "10308608197319017935.wav",
+          "referenz": "Diese Paare können sich für einen Adoptionsplan für ihr Baby entscheiden.",
+          "erkannt": "",
+          "fehler": 11
+        },
+        {
+          "datei": "6819214157962336157.wav",
+          "referenz": "Ein einfaches beliebtes Abendessen, besonders im Sommer, ist das Pa amb Oli: Brot mit Olivenöl, Tomaten und jeglicher gerade verfügbarer Zutat wie Käse, Thunfisch usw.",
+          "erkannt": "",
+          "fehler": 25
+        },
+        {
+          "datei": "16494061853339361777.wav",
+          "referenz": "Professorin Pamela Ferguson von der University of Dundee merkt an: „Journalisten scheinen eine gefährliche Grenze zu überschreiten, wenn Sie Fotos usw. von Verdächtigen veröffentlichen.“",
+          "erkannt": "",
+          "fehler": 24
+        },
+        {
+          "datei": "17405690478792925480.wav",
+          "referenz": "Das erscheint vernünftig, da es einem nicht so vorkommt, als ob sich die Erde bewegt, oder?",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "11290601054905065123.wav",
+          "referenz": "USA Gymnastics und das USOC haben das gleiche Ziel - den Turnsport und andere Sportarten für die Athleten so sicher wie möglich zu machen, damit sie ihren Träumen in einer sicheren, positiven und selbstbestimmten Umgebung folgen können.",
+          "erkannt": "",
+          "fehler": 36
+        },
+        {
+          "datei": "7739349083395946674.wav",
+          "referenz": "Eine Autobombe detonierte am Morgen des gestrigen Tages im Polizeipräsidium des türkischen Gaziantep, tötete zwei Polizisten und verwundete über zwanzig weitere Menschen.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "17473015524442462177.wav",
+          "referenz": "Der Einsatz von Schiffen für den Gütertransport ist die bei weitem effizienteste Methode zum Transport großer Menschen- und Gütermengen über die Ozeane.",
+          "erkannt": "",
+          "fehler": 22
+        },
+        {
+          "datei": "7129312313642011230.wav",
+          "referenz": "Layton hatte während des Treffens mit dem Premierminister Änderungen am Umweltgesetz der Konservativen gefordert und dabei eine „gründliche und vollständige Neufassung“ des Umweltgesetzes der Konservativen Partei verlangt.",
+          "erkannt": "",
+          "fehler": 27
+        },
+        {
+          "datei": "6754907113927429020.wav",
+          "referenz": "Die Polizeipräsidentin Chandra Shekhar Solanki gab an, die Angeklagten seien mit bedeckten Gesichtern vor Gericht erschienen.",
+          "erkannt": "",
+          "fehler": 16
+        },
+        {
+          "datei": "13556643934894880169.wav",
+          "referenz": "Das Krankenhaus befolgte Protokolle zum Infektionsschutz, einschließlich der Trennung des Patienten von anderen, um die Infektion Dritter zu vermeiden.",
+          "erkannt": "",
+          "fehler": 19
+        },
+        {
+          "datei": "14628762662867216090.wav",
+          "referenz": "Am späten Sonntag kündigte der Präsident der Vereinigten Staaten, Donald Trump, in einer durch den Pressesekretär verlesenen Erklärung an, dass die US-Truppen Syrien verlassen würden.",
+          "erkannt": "",
+          "fehler": 26
+        },
+        {
+          "datei": "781298712249931542.wav",
+          "referenz": "Für die Springboks endete eine fünf Spiele lange Verlustserie.",
+          "erkannt": "",
+          "fehler": 9
+        }
+      ]
+    }
+  }
+}
