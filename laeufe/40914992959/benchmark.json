@@ -1,0 +1,1494 @@
+{
+  "datum": "2026-10-29",
+  "saetze": 40,
+  "modelle": {
+    "parakeet-s8": {
+      "ordner": "v/parakeet/s8",
+      "wer": 5.96,
+      "rtf": 0.0563,
+      "laden_s": 3.0,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderrudel, Tiere, die den Löwen, aber nicht anderen Großkatzen im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "fehler": 1
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zagros-Gebirge im Iran domestiziert.",
+          "fehler": 1
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "fehler": 0
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspomenade entlang der Küste: Das Schwimmen ist hier sicher.",
+          "fehler": 1
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Goma sorgfältig geplant werden, um den Stand der in der Provinz Nordkivu andauernden Kämpfe zu erfahren.",
+          "fehler": 3
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "Zwischen 22 und 11 Uhr wurde von den Insassen im Hof ein Feuer gelegt.",
+          "fehler": 3
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 k. an.",
+          "fehler": 2
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "fehler": 0
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "Da Kometen vor langer Zeit mit der Erde zusammenbreiten, versprechen sich die Wissenschaftler Einblicke, wie Planeten insbesondere die Erde, entstehen.",
+          "fehler": 1
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "fehler": 0
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "Nur Mutationen in Keimbanzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "fehler": 1
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "fehler": 0
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "In einigen Gebieten genügt es Wasser, eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "fehler": 0
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "Während der 1960er Jahre arbeitete Beschinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "fehler": 1
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "fehler": 0
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "Grönland war spärlich besiedelt. In den altmutschen Sagen heißt es, dass Erich der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "fehler": 2
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "Ottawa ist Kanadas bezaubern, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "fehler": 1
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "Im Norden ist die Region von der Sahel-Zone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "fehler": 2
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "Das Cochamutal Chiles wichtigstes Kletterziel, bekannt als der Josemite National Park von Südamerika mit einer Vielzahl von großen Granitwänden und Klippen.",
+          "fehler": 5
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zu Bestattungen auf dem Parketersplatz zu erhalten.",
+          "fehler": 3
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "Er fügte hinzu, dass sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "Die Gegenwart eines echten unsichtbaren Teams, Lason und La Fasto 1989 Seite 109 ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "fehler": 4
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "Das Giselplateau beziehungsweise die Giesenekropole im ägyptischen Teil der Toten umfasst mehrere Pyramiden, von denen die Große Pyramide die größte ist, mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "fehler": 5
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Geija Süfa.",
+          "fehler": 2
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "fehler": 0
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierminister-Porträts auf der Vorderseite der kanadischen 5- und 100-Dollar-Noten ein.",
+          "fehler": 4
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "Im Jahr 2002 wurde Gumma durch die Lava des Nirarongou-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich berub.",
+          "fehler": 3
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus Rex.",
+          "fehler": 0
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "fehler": 0
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "Die Feuchtigkeit auf ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "fehler": 0
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "fehler": 0
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "fehler": 0
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe die Individuen in einer neuenartigen Lernsituation unterstützt, wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "fehler": 1
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "fehler": 0
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "fehler": 0
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "Er wurde von den Vichy-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.",
+          "fehler": 0
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "Es wurde keine Tsunamiwarnung ausgegeben, und laut der Geopysikbehörde von Jakarta wird es auch keine Tsunamiwarnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 Licht erreichte.",
+          "fehler": 6
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "Die Kreuzfahrten nach St. Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit, siehe Bedingungen.",
+          "fehler": 1
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss, als das Team es gemacht hat und sich alles zu eigen macht.",
+          "fehler": 0
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "fehler": 0
+        }
+      ]
+    },
+    "parakeet-s8rr": {
+      "ordner": "v/parakeet/s8rr",
+      "wer": 6.29,
+      "rtf": 0.0554,
+      "laden_s": 4.6,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderrudel, Tiere, die den Löwen, aber nicht anderen Großkatzen im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "fehler": 1
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zagrosgebirge im Iran domestiziert.",
+          "fehler": 2
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "fehler": 0
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspomenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "fehler": 1
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Goma sorgfältig geplant werden, um den Stand der in der Provinz Nordkivu andauernden Kämpfe zu erfahren.",
+          "fehler": 3
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "Zwischen 22 und 11 Uhr wurde von den Insassen im Hof ein Feuer gelegt.",
+          "fehler": 3
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 k. an.",
+          "fehler": 2
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "fehler": 0
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "Da Kometen vor langer Zeit mit der Erde zusammenbreiten, versprechen sich die Wissenschaftler Einblicke, wie Planeten insbesondere die Erde, entstehen.",
+          "fehler": 1
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "fehler": 0
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "Nur Mutationen in Keimbanzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "fehler": 1
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "fehler": 0
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "In einigen Gebieten genügt es Wasser, eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "fehler": 0
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "Während der 1960er Jahre arbeitete Buschinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "fehler": 1
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "fehler": 0
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "Grönland war spärlich besiedelt. In den Altmutschen Sagen heißt es, dass Erich der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "fehler": 2
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "Ottawa ist Kanadas bezaubern, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "fehler": 1
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "Im Norden ist die Region von der Sahel-Zone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "fehler": 2
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "Das Cochamotal Chiles wichtigstes Kletterziel, bekannt als der Josemite National Park von Südamerika mit einer Vielzahl von großen Granitwänden und Klippen.",
+          "fehler": 5
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zu Bestattungen auf dem Park-Apetersplatz zu erhalten.",
+          "fehler": 4
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "Er fügte hinzu, dass sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "Die Gegenwart eines echten unsichtbaren Teams, Lason und La Fasto 1989 Seite 109 ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "fehler": 4
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "Das Giselplateau beziehungsweise die Giesenekropole im ägyptischen Teil der Toten umfasst mehrere Pyramiden, von denen die Große Pyramide die größte ist, mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "fehler": 5
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Geija Süfa.",
+          "fehler": 2
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "fehler": 0
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierminister-Porträts auf der Vorderseite der kanadischen 5- und 100-Dollar-Noten ein.",
+          "fehler": 4
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "Im Jahr 2002 wurde Gumma durch die Lava des Nirarongow-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich berub.",
+          "fehler": 3
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus Rex.",
+          "fehler": 0
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "fehler": 0
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "Die Feuchtigkeit auf ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "fehler": 0
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "fehler": 0
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "fehler": 0
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe die Individuen in einer neuenartigen Lernsituation unterstützt, wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "fehler": 1
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "Auf einigen Routen setzten die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "fehler": 1
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "fehler": 0
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "Er wurde von den Vichy-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.",
+          "fehler": 0
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "Es wurde keine Tsunamiwarnung ausgegeben, und laut der Geopysikbehörde von Jakarta wird es auch keine Tsunamiwarnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 Licht erreichte.",
+          "fehler": 6
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "Die Kreuzfahrten nach St. Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit, siehe Bedingungen.",
+          "fehler": 1
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss, als das Team es gemacht hat, und sich alles zu eigen macht.",
+          "fehler": 0
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "fehler": 0
+        }
+      ]
+    },
+    "parakeet-u8": {
+      "ordner": "v/parakeet/u8",
+      "wer": 5.51,
+      "rtf": 0.0823,
+      "laden_s": 1.2,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderrudel, Tiere, die den Löwen, aber nicht anderen Großkatzen im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "fehler": 1
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zagros-Gebirge im Iran domestiziert.",
+          "fehler": 1
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "fehler": 0
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspomenade entlang der Küste: Das Schwimmen ist hier sicher.",
+          "fehler": 1
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Goma sorgfältig geplant werden, um den Stand der in der Provinz Nordkivu andauernden Kämpfe zu erfahren.",
+          "fehler": 3
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "Zwischen 22 und 11 Uhr wurde von den Insassen im Hof ein Feuer gelegt.",
+          "fehler": 3
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 k. Chr. an.",
+          "fehler": 1
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "fehler": 0
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "Da Kometen vor langer Zeit mit der Erde zusammenbreiten, versprechen sich die Wissenschaftler Einblicke, wie Planeten insbesondere die Erde, entstehen.",
+          "fehler": 1
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "fehler": 0
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "Nur Mutationen in Keimbanzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "fehler": 1
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "fehler": 0
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "In einigen Gebieten genügt es Wasser, eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "fehler": 0
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "Während der 1960er Jahre arbeitete Buschinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "fehler": 1
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "fehler": 0
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "Grönland war spärlich besiedelt. In den altmutschen Sagen heißt es, dass Erich der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "fehler": 2
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "Ottawa ist Kanadas bezaubern, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "fehler": 1
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "Im Norden ist die Region von der Sahel-Zone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "fehler": 2
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "Das Cochamotal Chiles wichtigstes Kletterziel, bekannt als der Josemite National Park von Südamerika mit einer Vielzahl von großen Granitwänden und Klippen.",
+          "fehler": 5
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zu Bestattungen auf dem Parketersplatz zu erhalten.",
+          "fehler": 3
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "Er fügte hinzu, dass sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "Die Gegenwart eines echten unsichtbaren Teams, Lason und LaFasto 1989 Seite 109 ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "fehler": 2
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "Das Gise-Plateau beziehungsweise die Giesenekropole im ägyptischen Teil der Toten umfasst mehrere Pyramiden, von denen die Große Pyramide die größte ist, mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "fehler": 4
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Geija Süfa.",
+          "fehler": 2
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "fehler": 0
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierminister-Porträts auf der Vorderseite der kanadischen 5- und 100-Dollar-Noten ein.",
+          "fehler": 4
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "Im Jahr 2002 wurde Gumma durch die Lava des Nirarongou-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich berub.",
+          "fehler": 3
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus Rex.",
+          "fehler": 0
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "fehler": 0
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "Die Feuchtigkeit auf ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "fehler": 0
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "fehler": 0
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "fehler": 0
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe die Individuen in einer neuenartigen Lernsituation unterstützt, wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "fehler": 1
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "fehler": 0
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "fehler": 0
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "Er wurde von den Vichy-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.",
+          "fehler": 0
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "Es wurde keine Tsunamiwarnung ausgegeben, und laut der Geopysikbehörde von Jakarta wird es auch keine Tsunamiwarnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 Licht erreichte.",
+          "fehler": 6
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "Die Kreuzfahrten nach St. Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit, siehe Bedingungen.",
+          "fehler": 1
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss, als das Team es gemacht hat und sich alles zu eigen macht.",
+          "fehler": 0
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "fehler": 0
+        }
+      ]
+    },
+    "nemotron-s8": {
+      "ordner": "v/nemotron/s8",
+      "wer": 5.96,
+      "rtf": 0.0486,
+      "laden_s": 3.2,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen, aber nicht anderen Großkatzen im Verhalten überraschend ähnel und ebenso tödlich gegenüber ihrer Beute sind.",
+          "fehler": 1
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "Ziegen wurden anscheinend bereits vor ungefähr zehntausend Jahren in Sagros-Gebirge im Iran domestiziert.",
+          "fehler": 4
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "fehler": 0
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste, das Schwimmen ist hier sicher.",
+          "fehler": 0
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Goma sorgfältig geplant werden, um den Stand der in der Provinz Nordkivu andauernden Kämpfe zu erfahren.",
+          "fehler": 3
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "Zwischen zweiundzwanzig und elf Uhr wurde von den Insassen im Hof ein Feuer gelegt.",
+          "fehler": 5
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um vierhundert nach Christus und dauerte bis ungefähr elfhundert nach Christus an.",
+          "fehler": 6
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "fehler": 0
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten",
+          "fehler": 0
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zeltod oder zu Krebs führen können",
+          "fehler": 1
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "fehler": 0
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "In einigen Gebieten genügt es Wasser, eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "fehler": 0
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "Während der neunzehnhundertsechziger Jahre arbeitete Brzynski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Linton B. Johnson.",
+          "fehler": 3
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "fehler": 0
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "Grönland war spärlich besiedelt. In den altmutschen Sagen heißt es, dass Erich der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "fehler": 2
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "fehler": 0
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "fehler": 0
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "Das Cochamo-Tal Chiles wichtigstes Kletterziel, bekannt als der Josemite National Park von Südamerika, mit einer Vielzahl von großen Granitwänden und Klippen.",
+          "fehler": 4
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zu Bestattungen auf dem Parpetersplatz zu erhalten.",
+          "fehler": 3
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "Er fügte hinzu, dass sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "Die Gegenwart eines echten unsichtbaren Teams Larson und La Fasto 1989 Seite 109 ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "fehler": 3
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "Das Gieseplateau bzw. die Giesenekropole im ägyptischen Teil der Toten umfasst mehrere Pyramiden, von denen die große Pyramide die größte ist, mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "fehler": 6
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gia Syfa.",
+          "fehler": 2
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "Betrachten Sie die Skirroute wie eine vergleichbare Wanderroute.",
+          "fehler": 1
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerporträts auf der Vorderseite der kanadischen 5- und 100 Dollar Noten ein.",
+          "fehler": 3
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "Im Jahr 2002 wurde Gumma durch die Lava des Niragungo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum unter sich begrub.",
+          "fehler": 2
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus-Rex.",
+          "fehler": 0
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "fehler": 0
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "Die Feuchtigkeit auf ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "fehler": 0
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "fehler": 0
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "fehler": 0
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuenartigen Lernsituation unterstützt, wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "fehler": 1
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "fehler": 0
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "fehler": 0
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "Er wurde von den Vichy-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen",
+          "fehler": 0
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta würde es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 Licht erreichte.",
+          "fehler": 2
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumspflicht befreit, siehe Bedingungen",
+          "fehler": 1
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss, als das Team es gemacht hat, und sich alles zu eigen macht.",
+          "fehler": 0
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "fehler": 0
+        }
+      ]
+    },
+    "nemotron-s8rr": {
+      "ordner": "v/nemotron/s8rr",
+      "wer": 5.73,
+      "rtf": 0.0505,
+      "laden_s": 3.4,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen aber nicht anderen Großkatzen im Verhalten überraschend ähnel und ebenso tödlich gegenüber ihrer Beute sind.",
+          "fehler": 1
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "Ziegen wurden anscheinend bereits vor ungefähr zehntausend Jahren in Sagros Gebirge im Iran domestiziert.",
+          "fehler": 4
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "fehler": 0
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste, das Schwimmen ist hier sicher.",
+          "fehler": 0
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Goma sorgfältig geplant werden, um den Stand der in der Provinz Nordkivu andauernden Kämpfe zu erfahren.",
+          "fehler": 3
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "Zwischen zweiundzwanzig und elf Uhr wurde von den Insassen im Hof ein Feuer gelegt.",
+          "fehler": 5
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um vierhundert nach Christus und dauerte bis ungefähr elfhundert nach Christus an.",
+          "fehler": 6
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren im Argentinischen Theater an dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "fehler": 0
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten",
+          "fehler": 0
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zeltod oder zu Krebs führen können",
+          "fehler": 1
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "fehler": 0
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "In einigen Gebieten genügt es Wasser, eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "fehler": 0
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "Während der neunzehnhundertsechziger Jahre arbeitete Buschinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Linton B. Johnson.",
+          "fehler": 3
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "fehler": 0
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "Grönland war spärlich besiedelt. In den altmutschen Sagen heißt es, dass Erich der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "fehler": 2
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "fehler": 0
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "fehler": 0
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "Das Cochamo-Tal Chiles wichtigstes Kletterziel, bekannt als der Josemite National Park von Südamerika, mit einer Vielzahl von großen Granitwänden und Klippen.",
+          "fehler": 4
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zu Bestattungen auf dem Parpetersplatz zu erhalten.",
+          "fehler": 3
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "Er fügte hinzu, dass sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "Die Gegenwart eines echten unsichtbaren Teams Larson und La Fasto 1989 Seite 109 ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "fehler": 3
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "Das Gieselplateau bzw. die Giesenekropole im ägyptischen Tal der Toten umfasst mehrere Pyramiden, von denen die große Pyramide die größte ist, mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "fehler": 5
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gia Syfa.",
+          "fehler": 2
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "Betrachten Sie die Skirroute wie eine vergleichbare Wanderroute.",
+          "fehler": 1
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerporträts auf der Vorderseite der kanadischen 5- und 100 Dollar Noten ein.",
+          "fehler": 3
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "Im Jahr 2002 wurde Gummer durch die Lava des Niragungo Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum unter sich begrub.",
+          "fehler": 2
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus-Rex.",
+          "fehler": 0
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "fehler": 0
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "Die Feuchtigkeit auf ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "fehler": 0
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "fehler": 0
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "fehler": 0
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuenartigen Lernsituation unterstützt, wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "fehler": 1
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "fehler": 0
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "fehler": 0
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "Er wurde von den Vichy-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen",
+          "fehler": 0
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta würde es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "fehler": 1
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumspflicht befreit, siehe Bedingungen",
+          "fehler": 1
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss, als das Team es gemacht hat, und sich alles zu eigen macht.",
+          "fehler": 0
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "fehler": 0
+        }
+      ]
+    },
+    "nemotron-u8": {
+      "ordner": "v/nemotron/u8",
+      "wer": 5.96,
+      "rtf": 0.0777,
+      "laden_s": 6.0,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen aber nicht anderen Großkatzen im Verhalten überraschend ähnel und ebenso tödlich gegenüber ihrer Beute sind.",
+          "fehler": 1
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "Ziegen wurden anscheinend bereits vor ungefähr zehntausend Jahren in Sagros-Gebirge im Iran domestiziert.",
+          "fehler": 4
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "fehler": 0
+        },
+        {
+          "datei": "14996476656149482093.wav",
+          "referenz": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste. Das Schwimmen ist hier sicher.",
+          "erkannt": "Es gibt Familienstrände, die manchmal überlaufen sind, mit einer schönen Einkaufspromenade entlang der Küste, das Schwimmen ist hier sicher.",
+          "fehler": 0
+        },
+        {
+          "datei": "14772366518870892058.wav",
+          "referenz": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Gomas sorgfältig geplant werden, um den Stand der in der Provinz Nord-Kivu andauernden Kämpfe zu erfahren.",
+          "erkannt": "Während Goma einigermaßen sicher ist, sollte jeder Aufenthalt außerhalb Goma sorgfältig geplant werden, um den Stand der in der Provinz Nordkivu andauernden Kämpfe zu erfahren.",
+          "fehler": 3
+        },
+        {
+          "datei": "17340904394278275929.wav",
+          "referenz": "Zwischen 22:00 und 11:00 Uhr MDT wurde von den Insassen im Hof ein Feuer gelegt.",
+          "erkannt": "Zwischen zweiundzwanzig und elf Uhr wurde von den Insassen im Hof ein Feuer gelegt.",
+          "fehler": 5
+        },
+        {
+          "datei": "3812261423674718843.wav",
+          "referenz": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um 400 n. Chr. und dauerte bis ungefähr 1100 n. Chr. an.",
+          "erkannt": "Sein Ruhm als Epizentrum des Luxus begann ungefähr um vierhundert nach Christus und dauerte bis ungefähr elfhundert nach Christus an.",
+          "fehler": 6
+        },
+        {
+          "datei": "16004810575340028273.wav",
+          "referenz": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren, im Argentinischen Theater an. Dort begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "erkannt": "Frau Kirchner kündigte ihre Absicht, als Präsidentin zu kandidieren im Argentinischen Theater an begann sie 2005 auch ihre Kampagne für den Senat als Mitglied der Delegation der Provinz Buenos Aires.",
+          "fehler": 1
+        },
+        {
+          "datei": "9450525503727057365.wav",
+          "referenz": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "erkannt": "Da Kometen vor langer Zeit mit der Erde zusammenprallten, versprechen sich die Wissenschaftler Einblicke, wie Planeten, insbesondere die Erde, entstehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "14743079206182242094.wav",
+          "referenz": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten.",
+          "erkannt": "Es gibt keine allgemeingültige Definition dafür, welche hergestellten Gegenstände als Antiquitäten gelten. Manche Steuerbehörden definieren über 100 Jahre alte Waren als Antiquitäten",
+          "fehler": 0
+        },
+        {
+          "datei": "4912300559226683422.wav",
+          "referenz": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zelltod oder zu Krebs führen können.",
+          "erkannt": "Nur Mutationen in Keimbahnzellen können an Kinder weitergegeben werden, während Mutationen anderswo zum Zeltod oder zu Krebs führen können",
+          "fehler": 1
+        },
+        {
+          "datei": "829120786432280030.wav",
+          "referenz": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "erkannt": "Die zwei Verbindungen reagieren miteinander und formen Kristalle, die laut Forschern der Hochschule die Nierentätigkeit behindern können.",
+          "fehler": 0
+        },
+        {
+          "datei": "16512809721737584620.wav",
+          "referenz": "In einigen Gebieten genügt es, Wasser eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "erkannt": "In einigen Gebieten genügt es Wasser, eine Minute lang abzukochen, in anderen müssen es mehrere Minuten sein.",
+          "fehler": 0
+        },
+        {
+          "datei": "3543431813467030777.wav",
+          "referenz": "Während der 1960er-Jahre arbeitete Brzezinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Lyndon B. Johnson.",
+          "erkannt": "Während der neunzehnhundertsechziger Jahre arbeitete Buschinski als Berater für John F. Kennedy sowie anschließend für die Regierung rund um Linton B. Johnson.",
+          "fehler": 3
+        },
+        {
+          "datei": "11916043699055235066.wav",
+          "referenz": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "erkannt": "Der Bericht steht fast jedem Aspekt der gegenwärtigen Politik der Exekutive im Hinblick auf den Irak äußerst kritisch gegenüber und drängt auf einen sofortigen Richtungswechsel.",
+          "fehler": 0
+        },
+        {
+          "datei": "1787482183202287422.wav",
+          "referenz": "Grönland war spärlich besiedelt. In den altnordischen Sagen heißt es, dass Erik der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "erkannt": "Grönland war spärlich besiedelt. In den altmutschen Sagen heißt es, dass Erich der Rote wegen Mordes aus Island verbannt wurde. Als er weiter nach Westen reiste, fand er Grönland und gab ihm den Namen Grönland.",
+          "fehler": 2
+        },
+        {
+          "datei": "10243976286554101786.wav",
+          "referenz": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "erkannt": "Ottawa ist Kanadas bezaubernde, zweisprachige Hauptstadt und zeichnet sich durch eine Reihe von Kunstgalerien und Museen aus, die Kanadas Vergangenheit und Gegenwart präsentieren.",
+          "fehler": 0
+        },
+        {
+          "datei": "7449746496897667416.wav",
+          "referenz": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "erkannt": "Im Norden ist die Region von der Sahelzone begrenzt und im Süden und Westen vom Atlantischen Ozean.",
+          "fehler": 0
+        },
+        {
+          "datei": "7488275135478003184.wav",
+          "referenz": "Das Cochamó-Tal – Chiles wichtigstes Kletterziel, bekannt als der Yosemite-Nationalpark von Südamerika, mit einer Vielzahl von großen Granitwänden und -klippen.",
+          "erkannt": "Das Cochamo-Tal Chiles wichtigstes Kletterziel, bekannt als der Josemite National Park von Südamerika, mit einer Vielzahl von großen Granitwänden und Klippen.",
+          "fehler": 4
+        },
+        {
+          "datei": "16481527399735957402.wav",
+          "referenz": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zur Bestattung auf dem Petersplatz zu erhalten.",
+          "erkannt": "Die Teilnehmerzahl war so groß, dass es nicht allen möglich war, Zugang zu Bestattungen auf dem Parpetersplatz zu erhalten.",
+          "fehler": 3
+        },
+        {
+          "datei": "7747890228345208209.wav",
+          "referenz": "Er fügte hinzu, dass „sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen“.",
+          "erkannt": "Er fügte hinzu, dass sie jedoch nicht dazu aufgefordert werden sollten, Verpflichtungen einzugehen, die über ihren Entwicklungsstand, ihre Verantwortung und ihre Fähigkeiten hinausgehen.",
+          "fehler": 0
+        },
+        {
+          "datei": "12215366172446965404.wav",
+          "referenz": "Die Gegenwart eines echten „unsichtbaren Teams“ (Larson und LaFasto 1989, S. 109) ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "erkannt": "Die Gegenwart eines echten unsichtbaren Teams Larson und La Fasto 1989 Seite 109 ist auch ein einzigartiger Bestandteil eines virtuellen Teams.",
+          "fehler": 3
+        },
+        {
+          "datei": "15995646986316362748.wav",
+          "referenz": "Das Gizeh-Plateau beziehungsweise die „Gizeh-Nekropole“ im ägyptischen Tal der Toten umfasst mehrere Pyramiden (von denen die Große Pyramide die größte ist), mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "erkannt": "Das Gieseplateau bzw. die Giesenekropole im ägyptischen Tal der Toten umfasst mehrere Pyramiden, von denen die große Pyramide die größte ist, mehrere kleine Gräber, mehrere Tempel sowie die große Sphinx.",
+          "fehler": 5
+        },
+        {
+          "datei": "1368065425607103631.wav",
+          "referenz": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gila cypha.",
+          "erkannt": "Infolgedessen sind zwei Fischarten ausgestorben und zwei weitere sind vom Aussterben bedroht, darunter der Gia Syfa.",
+          "fehler": 2
+        },
+        {
+          "datei": "2672131145166681460.wav",
+          "referenz": "Betrachten Sie die Skiroute wie eine vergleichbare Wanderroute.",
+          "erkannt": "Betrachten Sie die Skirroute wie eine vergleichbare Wanderroute.",
+          "fehler": 1
+        },
+        {
+          "datei": "124264283562190227.wav",
+          "referenz": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerportraits auf der Vorderseite der kanadischen 5- und 100-Dollarnoten ein.",
+          "erkannt": "Er war auch am Stechen von Geldscheinen für viele Länder beteiligt. Aktuelle Beispiele seiner Arbeit schließen die Premierministerporträts auf der Vorderseite der kanadischen 5- und 100 Dollar Noten ein.",
+          "fehler": 3
+        },
+        {
+          "datei": "3614715373037403768.wav",
+          "referenz": "Im Jahr 2002 wurde Goma durch die Lava des Nyiragongo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum, unter sich begrub.",
+          "erkannt": "Im Jahr 2002 wurde Gumma durch die Lava des Niragungo-Vulkans zerstört, die die meisten Straßen der Stadt, insbesondere das Stadtzentrum unter sich begrub.",
+          "fehler": 2
+        },
+        {
+          "datei": "18028526040519304080.wav",
+          "referenz": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus rex.",
+          "erkannt": "Sie haben Füße mit Schuppen und Krallen, legen Eier und laufen auf beiden Hinterbeinen wie ein Tyrannosaurus Rex.",
+          "fehler": 0
+        },
+        {
+          "datei": "5552436957235740608.wav",
+          "referenz": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "erkannt": "Italienisch ist auch die Alltagssprache der meisten, die im Staat arbeiten, während Latein häufig bei religiösen Zeremonien verwendet wird.",
+          "fehler": 0
+        },
+        {
+          "datei": "3943936982120727450.wav",
+          "referenz": "Die Feuchtigkeit auf Ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "erkannt": "Die Feuchtigkeit auf ihren Händen reagiert mit den äußeren Schichten, was sich komisch anfühlt und eine Art Schutzschicht bildet.",
+          "fehler": 0
+        },
+        {
+          "datei": "4174379654895279374.wav",
+          "referenz": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "erkannt": "Seit 1988 müssen Wahlurnen transparent sein, damit Wähler und Beobachter bezeugen können, dass zu Beginn der Wahl keine Umschläge vorhanden sind und dass keine Umschläge eingeworfen werden, außer jene der ordnungsgemäß gezählten und autorisierten Wähler.",
+          "fehler": 0
+        },
+        {
+          "datei": "14746099547215924567.wav",
+          "referenz": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "erkannt": "Heutzutage schreiben Menschen Nachrichten auf Computerbildschirmen, ohne je in die Nähe eines Anspitzers kommen zu müssen.",
+          "fehler": 0
+        },
+        {
+          "datei": "908881885657929661.wav",
+          "referenz": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuartigen Lernsituation unterstützt wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "erkannt": "Scaffolding ist keine Lernmethode, sondern vielmehr eine Hilfe, die Individuen in einer neuenartigen Lernsituation unterstützt, wie beispielsweise beim Benutzen eines neuen Computerprogramms oder beim Beginn eines neuen Projekts.",
+          "fehler": 1
+        },
+        {
+          "datei": "7451112490045072794.wav",
+          "referenz": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "erkannt": "Auf einigen Routen setzen die größeren Firmen ihre eigenen Flugzeuge ein, aber auf anderen Routen und bei kleineren Firmen traten Schwierigkeiten auf.",
+          "fehler": 0
+        },
+        {
+          "datei": "9405132888018435596.wav",
+          "referenz": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "erkannt": "Je geringer die Anspannung ist, desto positiver ist die vorhandene Lebenskraft. Jeder Mensch hat das Potenzial, absolute Ruhe und Zufriedenheit zu finden.",
+          "fehler": 0
+        },
+        {
+          "datei": "8985978690235631242.wav",
+          "referenz": "\"Er wurde von den „Vichy\"\"-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.\"",
+          "erkannt": "Er wurde von den Vichy-Franzosen beherrscht. Dies waren Franzosen, die im Jahr 1940 mit den Deutschen Frieden geschlossen hatten und mit den Eroberern arbeiteten, anstatt sie zu bekämpfen.",
+          "fehler": 0
+        },
+        {
+          "datei": "16429573754852689412.wav",
+          "referenz": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta wird es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 nicht erreichte.",
+          "erkannt": "Es wurde keine Tsunami-Warnung ausgegeben und laut der Geophysikbehörde von Jakarta würde es auch keine Tsunami-Warnung geben, da das Erdbeben die dafür notwendige Stärke von 6,5 Licht erreichte.",
+          "fehler": 2
+        },
+        {
+          "datei": "12041023072861500629.wav",
+          "referenz": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumpflicht befreit (siehe Bedingungen).",
+          "erkannt": "Die Kreuzfahrten nach Sankt Petersburg bieten auch Zeit für einen Aufenthalt in der Stadt. Kreuzfahrtpassagiere sind von der Visumspflicht befreit, siehe Bedingungen",
+          "fehler": 1
+        },
+        {
+          "datei": "3230861239570803765.wav",
+          "referenz": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss als das Team es gemacht hat und sich alles zu eigen macht.",
+          "erkannt": "Am anderen Ende des Spektrums verwandelt man sich in ein nicht wiederzuerkennendes Individuum, das alles anders machen muss, als das Team es gemacht hat, und sich alles zu eigen macht.",
+          "fehler": 0
+        },
+        {
+          "datei": "9086428032084051145.wav",
+          "referenz": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "erkannt": "Wenn Sie nahe am Geschehen sein wollen, müssen Sie früh hingehen, um einen Campingplatz in der Nähe der Musik zu bekommen.",
+          "fehler": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+WARNING:root:Please consider to run pre-processing before quantization. Refer to example: https://github.com/microsoft/onnxruntime-inference-examples/blob/main/quantization/image_classification/cpu/ReadMe.md 
+WARNING:root:Please consider to run pre-processing before quantization. Refer to example: https://github.com/microsoft/onnxruntime-inference-examples/blob/main/quantization/image_classification/cpu/ReadMe.md 
+      _validate_dynamic_axes(dynamic_axes, model, input_names, output_names)
+    
+      _validate_dynamic_axes(dynamic_axes, model, input_names, output_names)
+    
+      _C._jit_pass_onnx_node_shape_type_inference(node, params_dict, opset_version)
+    
+      _C._jit_pass_onnx_graph_shape_type_inference(
+    
+      _C._jit_pass_onnx_graph_shape_type_inference(
+    
+Sprache de: Prompt 9
+WARNING:root:Please consider to run pre-processing before quantization. Refer to example: https://github.com/microsoft/onnxruntime-inference-examples/blob/main/quantization/image_classification/cpu/ReadMe.md 
+
+nemotron-unified-asr-0.6b-de-q8pc
+  encoder.int8.onnx  661750088  70781a2be9772364de275073175bbd04f4540fd00bfe1e4fd44b39a9923733c7
+  decoder.int8.onnx  36747369  001f7cc852a57944c62d5cd498884bb1621537b2ef2614b96bda6553b723240f
+  joiner.int8.onnx  3740486  09d32c89ea7edf2ed08f8a8ca0e53e7a6db10f89b1ce49a69c33d4fa22fc78d2
+  tokens.txt  42928  94139a0b2134fd40664ca72260026fa8a073336bb2f062239c8ecde2c8031763
