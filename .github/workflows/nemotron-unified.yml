@@ -15,7 +15,7 @@ on:
   # Startet auch beim Push einer Änderung an Workflow oder Skripten (auf dem Server gibt es kein gh)
   push:
     branches: [main]
-    paths: ['.github/workflows/nemotron-unified.yml', 'scripts/export_nemotron_unified.py']
+    paths: ['scripts/export_nemotron_unified.py']
 
 permissions:
   contents: write
@@ -99,7 +99,8 @@ jobs:
             dir="$WORK/$id"
             cp benchmark.json "$dir/benchmark-fleurs-de.json"
             notes="Grundlage: NVIDIA Nemotron-Labs-Unified-ASR 0.6B (https://huggingface.co/nvidia/nemotron-labs-unified-asr-0.6b), Lizenz OpenMDW 1.1 (https://github.com/OpenMDW/OpenMDW/blob/main/1.1/LICENSE.OpenMDW-1.1). Änderungen durch PEGASUS: Export nach ONNX für sherpa-onnx, Sprach-Prompt „$lang“ fest im Encoder, int8-Quantisierung pro Kanal. Läuft auf dem Prozessor. NVIDIA unterstützt oder empfiehlt PEGASUS nicht."
-            gh release delete "$id" --yes --cleanup-tag 2>/dev/null || true
+            # Nie ein bestehendes Release ersetzen: die App prüft gegen feste Prüfsummen (neue Fassung = neue id)
+            if gh release view "$id" >/dev/null 2>&1; then echo "$id gibt es schon, bleibt unverändert"; continue; fi
             gh release create "$id" --title "$id" --notes "$notes" \
               "$dir/encoder.int8.onnx" "$dir/decoder.int8.onnx" "$dir/joiner.int8.onnx" "$dir/tokens.txt" \
               "$dir/manifest.json" "$dir/NOTICE.txt" "$dir/benchmark-fleurs-de.json"
