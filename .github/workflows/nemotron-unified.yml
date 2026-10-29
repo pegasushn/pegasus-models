@@ -1,0 +1,101 @@
+# Wandelt NVIDIA Nemotron-Labs-Unified-ASR 0.6B für das lokale Diktat von Pegasus Suite Desktop um (ONNX für
+# sherpa-onnx, int8 pro Kanal, Sprach-Prompt fest im Encoder), misst es auf Deutsch gegen Parakeet (FLEURS,
+# 150 Sätze, CPU) und veröffentlicht je Sprache ein Release. Die App prüft jede Datei gegen die Prüfsummen, die in
+# ihr hinterlegt sind (apps/desktop/src/main/dictation/local-model.ts im Monorepo pegasus-suite).
+# Skripte: scripts/export_nemotron_unified.py, scripts/benchmark_fleurs.py (Kopien aus apps/desktop/scripts/stt).
+name: Nemotron Unified-ASR umwandeln
+
+on:
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: Releases veröffentlichen
+        type: boolean
+        default: true
+  # Startet auch beim Push einer Änderung an Workflow oder Skripten (auf dem Server gibt es kein gh)
+  push:
+    branches: [main]
+    paths: ['.github/workflows/nemotron-unified.yml', 'scripts/**']
+
+permissions:
+  contents: write
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    env:
+      GH_TOKEN: ${{ github.token }}
+      WORK: ${{ github.workspace }}/work
+      PARAKEET: ${{ github.workspace }}/parakeet
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Platz schaffen
+        run: |
+          sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+          df -h /
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Pakete installieren (Torch nur CPU)
+        run: |
+          pip install --upgrade pip
+          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install "nemo-toolkit[asr] @ git+https://github.com/NVIDIA-NeMo/Speech.git@main" \
+            onnx onnxruntime sherpa-onnx soundfile huggingface_hub numpy
+          pip list | grep -i -E "^(torch|nemo|onnx|onnxruntime|sherpa)" || true
+
+      - name: Umwandeln
+        run: python scripts/export_nemotron_unified.py "$WORK" --lang de --lang auto 2>&1 | tee export.log
+
+      - name: Parakeet zum Vergleich laden
+        run: |
+          mkdir -p "$PARAKEET"
+          gh release download parakeet-tdt-0.6b-v3-q8pc --dir "$PARAKEET" --pattern '*.onnx' --pattern 'tokens.txt'
+
+      - name: Messen (FLEURS de, 150 Sätze, 4 Threads)
+        run: |
+          python scripts/benchmark_fleurs.py \
+            --model parakeet="$PARAKEET" \
+            --model nemotron-de="$WORK/nemotron-unified-asr-0.6b-de-q8pc" \
+            --model nemotron-auto="$WORK/nemotron-unified-asr-0.6b-auto-q8pc" 2>&1 | tee benchmark.log
+          mv fleurs-*.json benchmark.json
+
+      - name: Zusammenfassung
+        if: always()
+        run: |
+          {
+            echo '## Messung (FLEURS de_de, CPU, int8)'
+            echo '```'; grep -E 'WER|Sätze' benchmark.log || true; echo '```'
+            for lang in de auto; do
+              f="$WORK/nemotron-unified-asr-0.6b-$lang-q8pc/manifest.json"
+              [ -f "$f" ] && { echo "### nemotron-unified-asr-0.6b-$lang-q8pc"; echo '```json'; cat "$f"; echo '```'; }
+            done
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: berichte
+          path: |
+            export.log
+            benchmark.log
+            benchmark.json
+            work/*/manifest.json
+
+      - name: Releases veröffentlichen
+        if: github.event_name == 'push' || inputs.publish
+        run: |
+          for lang in de auto; do
+            id="nemotron-unified-asr-0.6b-$lang-q8pc"
+            dir="$WORK/$id"
+            cp benchmark.json "$dir/benchmark-fleurs-de.json"
+            notes="Grundlage: NVIDIA Nemotron-Labs-Unified-ASR 0.6B (https://huggingface.co/nvidia/nemotron-labs-unified-asr-0.6b), Lizenz OpenMDW 1.1 (https://github.com/OpenMDW/OpenMDW/blob/main/1.1/LICENSE.OpenMDW-1.1). Änderungen durch PEGASUS: Export nach ONNX für sherpa-onnx, Sprach-Prompt „$lang“ fest im Encoder, int8-Quantisierung pro Kanal. Läuft auf dem Prozessor. NVIDIA unterstützt oder empfiehlt PEGASUS nicht."
+            gh release delete "$id" --yes --cleanup-tag 2>/dev/null || true
+            gh release create "$id" --title "$id" --notes "$notes" \
+              "$dir/encoder.int8.onnx" "$dir/decoder.int8.onnx" "$dir/joiner.int8.onnx" "$dir/tokens.txt" \
+              "$dir/manifest.json" "$dir/NOTICE.txt" "$dir/benchmark-fleurs-de.json"
+          done
