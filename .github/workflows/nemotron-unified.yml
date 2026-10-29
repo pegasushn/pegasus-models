@@ -20,6 +20,11 @@ on:
 permissions:
   contents: write
 
+defaults:
+  run:
+    # mit pipefail: ein Fehler vor `| tee` bricht den Schritt ab
+    shell: bash
+
 jobs:
   export:
     runs-on: ubuntu-latest
@@ -99,3 +104,18 @@ jobs:
               "$dir/encoder.int8.onnx" "$dir/decoder.int8.onnx" "$dir/joiner.int8.onnx" "$dir/tokens.txt" \
               "$dir/manifest.json" "$dir/NOTICE.txt" "$dir/benchmark-fleurs-de.json"
           done
+
+      - name: Logs in den Branch laeufe (lesbar ohne Admin-Rechte)
+        if: always()
+        run: |
+          run="${{ github.run_id }}"
+          mkdir -p /tmp/laeufe/$run
+          cp -f export.log benchmark.log benchmark.json /tmp/laeufe/$run/ 2>/dev/null || true
+          df -h / > /tmp/laeufe/$run/platz.txt
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin laeufe 2>/dev/null && git checkout -f laeufe || git checkout -f --orphan laeufe
+          git rm -rq --cached . 2>/dev/null || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git ! -name laeufe -exec rm -rf {} +
+          mkdir -p laeufe && cp -r /tmp/laeufe/$run laeufe/
+          git add laeufe && git commit -qm "Lauf $run" && git push -q origin laeufe
