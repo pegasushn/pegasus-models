@@ -1,0 +1,6 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+150 Sätze, 34.4 min Audio
+parakeet             WER 99.97 %   RTF 0.075   Laden 3.2 s
+nemotron-de          WER 94.72 %   RTF 0.070   Laden 2.8 s
+nemotron-auto        WER 97.30 %   RTF 0.071   Laden 1.5 s
+Einzelergebnisse: /home/runner/work/pegasus-models/pegasus-models/fleurs-2026-10-29.json
