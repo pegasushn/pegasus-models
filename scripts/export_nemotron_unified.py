@@ -150,9 +150,11 @@ def main() -> None:
     print("Klasse", type(asr_model).__name__, "num_prompts", asr_model.num_prompts)
     print("prompt_dictionary", dict(asr_model.cfg.model_defaults.prompt_dictionary))
 
-    # Offline: volle Aufmerksamkeit (der Unified-Encoder kann auch Streaming mit begrenztem Kontext)
-    if hasattr(asr_model.encoder, "set_default_att_context_size"):
-        asr_model.encoder.set_default_att_context_size([-1, -1])
+    # Offline: volle Aufmerksamkeit (der Unified-Encoder kann auch Streaming mit begrenztem Kontext). Er führt den
+    # Kontext mit drei Werten ([-1, -1, -1] = voll, Standard); nur umstellen, wenn etwas anderes eingestellt ist.
+    current = list(getattr(asr_model.encoder, "att_context_size", None) or [])
+    if current and any(v != -1 for v in current):
+        asr_model.encoder.set_default_att_context_size([-1] * len(current))
     print("att_context_size", getattr(asr_model.encoder, "att_context_size", None))
 
     if args.wav:
