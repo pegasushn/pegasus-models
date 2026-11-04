@@ -1,8 +1,8 @@
 # Liefert Nemotron-de auf Prozessoren ohne VNNI Unsinn? Der Rechner von GitHub hat VNNI, darum läuft die Messung zusätzlich
 # in qemu-user mit dem Prozessor Haswell (AVX2, kein VNNI, wie Intel 6. bis 10. Generation), damit ONNX Runtime denselben
-# Rechenweg nimmt wie dort. Gemessen werden die Datei aus dem Release (heute) und die neuen Varianten s8rr und u8, je mit
-# und ohne VNNI. Danach wird s8rr als eigenes Release abgelegt (neuer Tag, nichts wird ersetzt, die App lädt es erst, wenn
-# sie darauf verweist). Ergebnis in der Zusammenfassung und im Branch laeufe.
+# Rechenweg nimmt wie dort. Gemessen werden die neuen Varianten s8rr und u8, je mit und ohne VNNI (die Datei aus dem Release lieferte
+# ohne VNNI 98 % Fehler). s8rr wird vor der langsamen Emulation als eigenes Release abgelegt (neuer Tag, nichts wird
+# ersetzt, die App lädt es erst, wenn sie darauf verweist). Ergebnis in der Zusammenfassung und im Branch laeufe.
 name: Alte Prozessoren testen (ohne VNNI)
 
 on:
@@ -20,7 +20,7 @@ defaults:
 
 env:
   N_NATIV: '40'
-  N_EMU: '12'
+  N_EMU: '3'
   RELEASE_HEUTE: nemotron-unified-asr-0.6b-de-q8pc
   RELEASE_NEU: nemotron-unified-asr-0.6b-de-q8rr
 
@@ -70,14 +70,8 @@ jobs:
           gh release download "$RELEASE_HEUTE" --dir notice --pattern 'NOTICE.txt' --pattern 'manifest.json'
       - name: Messen mit VNNI
         run: |
-          python scripts/benchmark_fleurs.py --n "$N_NATIV" --model heute=v/heute --model s8rr=v/s8rr --model u8=v/u8 2>&1 | tee benchmark-nativ.log
+          python scripts/benchmark_fleurs.py --n "$N_NATIV" --model s8rr=v/s8rr --model u8=v/u8 2>&1 | tee benchmark-nativ.log
           mv fleurs-*.json benchmark-nativ.json
-      - name: Messen ohne VNNI (qemu Haswell)
-        run: |
-          # Gleiche ersten Sätze wie oben, Audio liegt schon im Cache. Offline, damit qemu nicht am Netz hängt.
-          HF_HUB_OFFLINE=1 qemu-x86_64 -cpu Haswell "$(python -c 'import sys; print(sys.executable)')" scripts/benchmark_fleurs.py \
-            --n "$N_EMU" --model heute=v/heute --model s8rr=v/s8rr --model u8=v/u8 2>&1 | grep -v 'warning: TCG' | tee benchmark-ohne-vnni.log
-          mv fleurs-*.json benchmark-ohne-vnni.json
       - name: s8rr als Release ablegen
         env:
           GH_TOKEN: ${{ github.token }}
@@ -105,7 +99,13 @@ jobs:
           PY
           gh release create "$RELEASE_NEU" --latest=false --title "$RELEASE_NEU" \
             --notes "Nemotron-Labs-Unified-ASR 0.6B, Variante de, int8 mit reduce_range (7-Bit-Gewichte). Messung: Workflow Alte Prozessoren testen." \
-            v/s8rr/encoder.int8.onnx v/s8rr/decoder.int8.onnx v/s8rr/joiner.int8.onnx v/s8rr/tokens.txt v/s8rr/manifest.json v/s8rr/NOTICE.txt benchmark-nativ.json benchmark-ohne-vnni.json
+            v/s8rr/encoder.int8.onnx v/s8rr/decoder.int8.onnx v/s8rr/joiner.int8.onnx v/s8rr/tokens.txt v/s8rr/manifest.json v/s8rr/NOTICE.txt benchmark-nativ.json
+      - name: Messen ohne VNNI (qemu Haswell)
+        run: |
+          # Gleiche ersten Sätze wie oben, Audio liegt schon im Cache. Offline, damit qemu nicht am Netz hängt.
+          HF_HUB_OFFLINE=1 qemu-x86_64 -cpu Haswell "$(python -c 'import sys; print(sys.executable)')" scripts/benchmark_fleurs.py \
+            --n "$N_EMU" --model s8rr=v/s8rr --model u8=v/u8 2>&1 | grep -v 'warning: TCG' | tee benchmark-ohne-vnni.log
+          mv fleurs-*.json benchmark-ohne-vnni.json
       - name: Zusammenfassung
         if: always()
         run: |
