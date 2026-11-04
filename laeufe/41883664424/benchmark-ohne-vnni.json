@@ -1,0 +1,58 @@
+{
+  "datum": "2026-11-04",
+  "saetze": 3,
+  "modelle": {
+    "s8rr": {
+      "ordner": "v/s8rr",
+      "wer": 8.77,
+      "rtf": 8.7564,
+      "laden_s": 24.6,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen aber nicht anderen Großkatzen im Verhalten überraschend ähnel und ebenso tödlich gegenüber ihrer Beute sind.",
+          "fehler": 1
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "Ziegen wurden anscheinend bereits vor ungefähr zehntausend Jahren in Sagros-Gebirge im Iran domestiziert.",
+          "fehler": 4
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "fehler": 0
+        }
+      ]
+    },
+    "u8": {
+      "ordner": "v/u8",
+      "wer": 8.77,
+      "rtf": 9.1574,
+      "laden_s": 19.8,
+      "saetze": [
+        {
+          "datei": "17113436913741548046.wav",
+          "referenz": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen (aber nicht anderen Großkatzen) im Verhalten überraschend ähneln und ebenso tödlich gegenüber ihrer Beute sind.",
+          "erkannt": "Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen aber nicht anderen Großkatzen im Verhalten überraschend ähnel und ebenso tödlich gegenüber ihrer Beute sind.",
+          "fehler": 1
+        },
+        {
+          "datei": "4963712857525084701.wav",
+          "referenz": "Ziegen wurden anscheinend bereits vor ungefähr 10.000 Jahren im Zāgros-Gebirge im Iran domestiziert.",
+          "erkannt": "Ziegen wurden anscheinend bereits vor ungefähr zehntausend Jahren in Sagros-Gebirge im Iran domestiziert.",
+          "fehler": 4
+        },
+        {
+          "datei": "12482370299689904904.wav",
+          "referenz": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "erkannt": "Leider fällt das Studium von Verkehrsflüssen schwer, da man Fahrerverhalten nicht mit hundertprozentiger Sicherheit voraussagen kann.",
+          "fehler": 0
+        }
+      ]
+    }
+  }
+}

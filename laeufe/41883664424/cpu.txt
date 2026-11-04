@@ -1,0 +1,3 @@
+model name	: AMD EPYC 7763 64-Core Processor
+nativ: avx2=1 avx512f=0 avx512vnni=0 avxvnni=0
+qemu Haswell: avx2=1 avx512f=0 avx512vnni=0 avxvnni=0

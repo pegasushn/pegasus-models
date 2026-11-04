@@ -1,0 +1,7 @@
+3 Sätze, 0.8 min Audio, sherpa-onnx 1.13.8
+Kontrolle Audio: dtype float32, Form (413760,), 25.9 s, Spitze 0.121, RMS 0.0124
+s8rr                 WER  8.77 %   RTF 8.756   Laden 24.6 s
+  Beispiel: 'Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen aber nicht anderen Großk'
+u8                   WER  8.77 %   RTF 9.157   Laden 19.8 s
+  Beispiel: 'Löwenrudel agieren ähnlich wie Wolfs- oder Hunderudel, Tiere, die den Löwen aber nicht anderen Großk'
+Einzelergebnisse: /home/runner/work/pegasus-models/pegasus-models/fleurs-2026-11-04.json
