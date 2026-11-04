@@ -1,0 +1,123 @@
+# Liefert Nemotron-de auf Prozessoren ohne VNNI Unsinn? Der Rechner von GitHub hat VNNI, darum läuft die Messung zusätzlich
+# in qemu-user mit dem Prozessor Haswell (AVX2, kein VNNI, wie Intel 6. bis 10. Generation), damit ONNX Runtime denselben
+# Rechenweg nimmt wie dort. Gemessen werden die Datei aus dem Release (heute) und die neuen Varianten s8rr und u8, je mit
+# und ohne VNNI. Danach wird s8rr als eigenes Release abgelegt (neuer Tag, nichts wird ersetzt, die App lädt es erst, wenn
+# sie darauf verweist). Ergebnis in der Zusammenfassung und im Branch laeufe.
+name: Alte Prozessoren testen (ohne VNNI)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/alte-cpu-test.yml']
+
+permissions:
+  contents: write
+
+defaults:
+  run:
+    shell: bash
+
+env:
+  N_NATIV: '40'
+  N_EMU: '12'
+  RELEASE_HEUTE: nemotron-unified-asr-0.6b-de-q8pc
+  RELEASE_NEU: nemotron-unified-asr-0.6b-de-q8rr
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 340
+    steps:
+      - uses: actions/checkout@v4
+      - name: Platz schaffen
+        run: sudo rm -rf /usr/share/dotnet /usr/local/lib/android /opt/ghc /opt/hostedtoolcache/CodeQL
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Pakete
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq qemu-user gcc
+          qemu-x86_64 --version | head -1
+          pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install "nemo-toolkit[asr] @ git+https://github.com/NVIDIA-NeMo/Speech.git@main" onnx onnxruntime sherpa-onnx==1.13.8 soundfile huggingface_hub numpy
+      - name: Prozessor prüfen (nativ und in qemu)
+        run: |
+          cat > cpu.c <<'C'
+          #include <stdio.h>
+          int main(void) {
+            __builtin_cpu_init();
+            printf("avx2=%d avx512f=%d avx512vnni=%d avxvnni=%d\n", !!__builtin_cpu_supports("avx2"), !!__builtin_cpu_supports("avx512f"),
+                   !!__builtin_cpu_supports("avx512vnni"), !!__builtin_cpu_supports("avxvnni"));
+            return 0;
+          }
+          C
+          gcc -O1 cpu.c -o cpu
+          { grep -m1 "model name" /proc/cpuinfo; echo "nativ: $(./cpu)"; echo "qemu Haswell: $(qemu-x86_64 -cpu Haswell ./cpu 2>/dev/null)"; } | tee cpu.txt
+          grep -q 'qemu Haswell: avx2=1 avx512f=0 avx512vnni=0 avxvnni=0' cpu.txt || { echo "::error::qemu liefert nicht den erwarteten Prozessor"; exit 1; }
+      - name: Nemotron-de fp32 exportieren
+        run: |
+          python scripts/export_nemotron_unified.py work --lang de --keep-fp32 2>&1 | grep -v "NeMo [WI]" | tail -20 | tee export.log
+          cp work/fp32/decoder.onnx work/fp32/joiner.onnx work/fp32/tokens.txt work/fp32-encoder-de/
+      - name: Varianten
+        run: python scripts/quant_variants.py work/fp32-encoder-de v --variant s8rr --variant u8 2>&1 | grep fertig | tee varianten.log
+      - name: Datei aus dem Release laden
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p v/heute
+          gh release download "$RELEASE_HEUTE" --dir v/heute --pattern '*.onnx' --pattern 'tokens.txt'
+          gh release download "$RELEASE_HEUTE" --dir notice --pattern 'NOTICE.txt' --pattern 'manifest.json'
+      - name: Messen mit VNNI
+        run: |
+          python scripts/benchmark_fleurs.py --n "$N_NATIV" --model heute=v/heute --model s8rr=v/s8rr --model u8=v/u8 2>&1 | tee benchmark-nativ.log
+          mv fleurs-*.json benchmark-nativ.json
+      - name: Messen ohne VNNI (qemu Haswell)
+        run: |
+          # Gleiche ersten Sätze wie oben, Audio liegt schon im Cache. Offline, damit qemu nicht am Netz hängt.
+          HF_HUB_OFFLINE=1 qemu-x86_64 -cpu Haswell "$(python -c 'import sys; print(sys.executable)')" scripts/benchmark_fleurs.py \
+            --n "$N_EMU" --model heute=v/heute --model s8rr=v/s8rr --model u8=v/u8 2>&1 | grep -v 'warning: TCG' | tee benchmark-ohne-vnni.log
+          mv fleurs-*.json benchmark-ohne-vnni.json
+      - name: s8rr als Release ablegen
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$RELEASE_NEU" >/dev/null 2>&1; then echo "$RELEASE_NEU gibt es schon, bleibt unverändert"; exit 0; fi
+          python - "$RELEASE_HEUTE" "$RELEASE_NEU" v/s8rr <<'PY'
+          import hashlib, json, sys
+          from pathlib import Path
+          old, tag, folder = sys.argv[1], sys.argv[2], Path(sys.argv[3])
+          files = []
+          for name in ("encoder.int8.onnx", "decoder.int8.onnx", "joiner.int8.onnx", "tokens.txt"):
+              data = hashlib.sha256()
+              with open(folder / name, "rb") as f:
+                  while chunk := f.read(1 << 20):
+                      data.update(chunk)
+              files.append({"name": name, "bytes": (folder / name).stat().st_size, "sha256": data.hexdigest()})
+          manifest = json.loads(Path("notice/manifest.json").read_text(encoding="utf-8"))
+          manifest.update(id=tag, files=files, totalBytes=sum(f["bytes"] for f in files))
+          manifest["format"] = manifest["format"].replace("int8 pro Kanal", "int8 mit reduce_range pro Kanal")
+          (folder / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8")
+          notice = Path("notice/NOTICE.txt").read_text(encoding="utf-8").replace(old, tag)
+          notice = notice.replace("int8-Quantisierung pro Kanal", "int8-Quantisierung pro Kanal mit reduce_range")
+          (folder / "NOTICE.txt").write_text(notice, encoding="utf-8")
+          print(json.dumps(files, indent=1))
+          PY
+          gh release create "$RELEASE_NEU" --latest=false --title "$RELEASE_NEU" \
+            --notes "Nemotron-Labs-Unified-ASR 0.6B, Variante de, int8 mit reduce_range (7-Bit-Gewichte). Messung: Workflow Alte Prozessoren testen." \
+            v/s8rr/encoder.int8.onnx v/s8rr/decoder.int8.onnx v/s8rr/joiner.int8.onnx v/s8rr/tokens.txt v/s8rr/manifest.json v/s8rr/NOTICE.txt benchmark-nativ.json benchmark-ohne-vnni.json
+      - name: Zusammenfassung
+        if: always()
+        run: |
+          { echo '## Mit und ohne VNNI'; echo '```'; cat cpu.txt 2>/dev/null; echo '--- mit VNNI'; grep -E 'WER|Beispiel' benchmark-nativ.log 2>/dev/null; echo '--- ohne VNNI (qemu Haswell)'; grep -E 'WER|Beispiel' benchmark-ohne-vnni.log 2>/dev/null; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Logs in den Branch laeufe
+        if: always()
+        run: |
+          run="${{ github.run_id }}"
+          mkdir -p /tmp/laeufe/$run
+          cp -f cpu.txt export.log varianten.log benchmark-nativ.log benchmark-nativ.json benchmark-ohne-vnni.log benchmark-ohne-vnni.json /tmp/laeufe/$run/ 2>/dev/null || true
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin laeufe && git checkout -f laeufe
+          mkdir -p laeufe && cp -r /tmp/laeufe/$run laeufe/
+          git add laeufe && git commit -qm "Alte CPU $run" && git push -q origin laeufe
